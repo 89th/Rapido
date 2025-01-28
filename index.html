@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSD Filter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
+      select,
+      input {
+        margin: 5px;
+        padding: 5px;
+      }
+      button {
+        padding: 5px 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SSD Filter</h1>
+    <div>
+      <label for="format">Format:</label>
+      <select id="format">
+        <option value="">All</option>
+      </select>
+
+      <label for="dram">DRAM:</label>
+      <select id="dram">
+        <option value="">All</option>
+      </select>
+
+      <label for="type">NAND Type:</label>
+      <select id="type">
+        <option value="">All</option>
+      </select>
+
+      <label for="interface">Interface:</label>
+      <select id="interface">
+        <option value="">All</option>
+      </select>
+    </div>
+
+    <button id="resetButton">Reset Filters</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Capacity</th>
+          <th>NAND Type</th>
+          <th>Format</th>
+          <th>Interface</th>
+          <th>Released</th>
+          <th>Controller</th>
+          <th>DRAM</th>
+        </tr>
+      </thead>
+      <tbody id="dataTable"></tbody>
+    </table>
+
+    <script>
+      // Path to the CSV file
+      const csvFile = "ssd.csv";
+
+      // Fetch CSV file and process data
+      fetch(csvFile)
+        .then((response) => response.text())
+        .then((csvText) => {
+          const rows = csvText
+            .trim()
+            .split("\n")
+            .map((row) => row.split(","));
+          const headers = rows.shift(); // Extract the header row
+          const data = rows; // Remaining rows are data
+
+          populateFilters(data);
+          renderTable(data);
+
+          // Add event listeners for filters
+          document
+            .getElementById("format")
+            .addEventListener("change", () => filterTable(data));
+          document
+            .getElementById("dram")
+            .addEventListener("change", () => filterTable(data));
+          document
+            .getElementById("type")
+            .addEventListener("change", () => filterTable(data));
+          document
+            .getElementById("interface")
+            .addEventListener("change", () => filterTable(data));
+
+          // Reset button event listener
+          document
+            .getElementById("resetButton")
+            .addEventListener("click", resetFilters);
+        });
+
+      // Populate filter dropdowns dynamically
+      function populateFilters(data) {
+        const formatSet = new Set();
+        const typeSet = new Set();
+        const interfaceSet = new Set();
+        const dramSet = new Set();
+
+        data.forEach((row) => {
+          // Clean the data by removing \r and \n characters before adding to the sets
+          formatSet.add(cleanValue(row[3])); // Format
+          typeSet.add(cleanValue(row[2])); // Type
+          interfaceSet.add(cleanValue(row[4])); // Interface
+          dramSet.add(cleanValue(row[7])); // DRAM
+        });
+
+        // Populate the dropdowns based on the current filter state
+        updateDropdown("format", Array.from(formatSet));
+        updateDropdown("type", Array.from(typeSet));
+        updateDropdown("interface", Array.from(interfaceSet));
+        updateDropdown("dram", Array.from(dramSet));
+      }
+
+      // Helper function to clean value (remove \r and \n characters)
+      function cleanValue(value) {
+        return value.replace(/[\r\n]+/g, "").trim();
+      }
+
+      // Helper function to populate a dropdown only if it's still set to "All"
+      function updateDropdown(elementId, options) {
+        const select = document.getElementById(elementId);
+        if (select.value === "") {
+          // Only update if it hasn't been set to a specific value
+          select.innerHTML = '<option value="">All</option>'; // Reset dropdown
+          options.forEach((option) => {
+            const opt = document.createElement("option");
+            opt.value = option;
+            opt.textContent = option;
+            select.appendChild(opt);
+          });
+        }
+      }
+
+      // Render table rows
+      function renderTable(data) {
+        const tableBody = document.getElementById("dataTable");
+        tableBody.innerHTML = ""; // Clear existing rows
+        data.forEach((row) => {
+          const tr = document.createElement("tr");
+
+          // Add the model name with the product URL as a clickable link
+          const modelCell = document.createElement("td");
+          const modelLink = document.createElement("a");
+          modelLink.href = cleanValue(row[8]); // Assuming row[8] is the Product URL
+          modelLink.textContent = cleanValue(row[0]); // Assuming row[0] is the Model Name
+          modelLink.target = "_blank"; // Open link in new tab
+          modelCell.appendChild(modelLink);
+          tr.appendChild(modelCell);
+
+          // Add the rest of the cells
+          row.slice(1, 8).forEach((cell) => {
+            const td = document.createElement("td");
+            td.textContent = cleanValue(cell); // Clean data before displaying
+            tr.appendChild(td);
+          });
+
+          tableBody.appendChild(tr);
+        });
+      }
+
+      // Filter table based on dropdowns
+      function filterTable(data) {
+        const format = cleanValue(document.getElementById("format").value);
+        const dram = cleanValue(document.getElementById("dram").value);
+        const type = cleanValue(document.getElementById("type").value);
+        const interfaceValue = cleanValue(
+          document.getElementById("interface").value
+        );
+
+        // Filter data based on selected options
+        let filteredData = data.filter((row) => {
+          return (
+            (format === "" || cleanValue(row[3]) === format) &&
+            (dram === "" || cleanValue(row[7]) === dram) &&
+            (type === "" || cleanValue(row[2]) === type) &&
+            (interfaceValue === "" || cleanValue(row[4]) === interfaceValue)
+          );
+        });
+
+        // Update dropdown options based on filtered data (only for filters not set yet)
+        updateDropdown("format", getUniqueOptions(filteredData, 3));
+        updateDropdown("type", getUniqueOptions(filteredData, 2));
+        updateDropdown("interface", getUniqueOptions(filteredData, 4));
+        updateDropdown("dram", getUniqueOptions(filteredData, 7));
+
+        // Render the filtered table
+        renderTable(filteredData);
+      }
+
+      // Helper function to extract unique options for each column
+      function getUniqueOptions(data, columnIndex) {
+        const optionSet = new Set();
+        data.forEach((row) => {
+          optionSet.add(cleanValue(row[columnIndex]));
+        });
+        return Array.from(optionSet);
+      }
+
+      // Reset all filters to their default state
+      function resetFilters() {
+        // Set all dropdowns to "All" (empty value)
+        document.getElementById("format").value = "";
+        document.getElementById("dram").value = "";
+        document.getElementById("type").value = "";
+        document.getElementById("interface").value = "";
+
+        // Re-populate filters and render the full table
+        fetch(csvFile)
+          .then((response) => response.text())
+          .then((csvText) => {
+            const rows = csvText
+              .trim()
+              .split("\n")
+              .map((row) => row.split(","));
+            rows.shift(); // Remove header
+            populateFilters(rows);
+            renderTable(rows);
+          });
+      }
+    </script>
+  </body>
+</html>

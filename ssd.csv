@@ -1,0 +1,761 @@
+Model,Capacity,NAND Type,Format,Interface,Released,Controller,DRAM,Product URL
+ADATA Falcon,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5762DL,HMB,https://www.techpowerup.com/ssd-specs/adata-falcon-1-tb.d138
+ADATA Legend 840,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5220,HMB,https://www.techpowerup.com/ssd-specs/adata-legend-840-1-tb.d611
+ADATA Legend 850 (SM2269XT + Micron B47R),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/adata-legend-850-1-tb.d1553
+ADATA Legend 850 (SM2269XT + YMTC CDT1B),1 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/adata-legend-850-1-tb.d1559
+ADATA Legend 850 Lite,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/adata-legend-850-lite-1-tb.d1714
+ADATA Legend 960,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,SM2264F,Yes,https://www.techpowerup.com/ssd-specs/adata-legend-960-1-tb.d988
+ADATA Legend 960 Max,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,SM2264F,Yes,https://www.techpowerup.com/ssd-specs/adata-legend-960-max-1-tb.d1176
+ADATA Legend 970,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/adata-legend-970-1-tb.d1550
+ADATA Legend 970 Pro,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,IG5666,Yes,https://www.techpowerup.com/ssd-specs/adata-legend-970-pro-1-tb.d2125
+ADATA Premium SSD for PS5,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/adata-premium-ssd-for-ps5-1-tb.d1349
+ADATA Project NeonStorm,1 TB,Unknown,M.2 2280,PCIe 5.0 x4,2023,IG5666,Yes,https://www.techpowerup.com/ssd-specs/adata-project-neonstorm-1-tb.d1496
+ADATA Project Nightbird,1 TB,TLC,M.2 2280,PCIe 5.0 x4,2022,IG5666,Yes,https://www.techpowerup.com/ssd-specs/adata-project-nightbird-1-tb.d619
+ADATA SE900G (Samsung V4),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/adata-se900g-1-tb.d1136
+ADATA SE900G (SpecTek B27A),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/adata-se900g-1-tb.d1133
+ADATA Swordfish,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/adata-swordfish-1-tb.d143
+ADATA Ultimate SU630 (MAS0902 + SpecTek N18A),240 GB 480 GB 960 GB 1.9 TB 3.8 TB,QLC,2.5,SATA 6 Gbps,2018,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su630-960-gb.d276
+ADATA Ultimate SU630 (SM2259XT + SpecTek N18A),240 GB 480 GB 960 GB 1.9 TB 3.8 TB,QLC,2.5,SATA 6 Gbps,2021,SM2259XT,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su630-960-gb.d996
+ADATA Ultimate SU650 (MAS0902 + Micron B0KB),960 GB 1.9 TB,TLC,2.5,SATA 6 Gbps,2018,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-960-gb.d266
+ADATA Ultimate SU650 (MAS0902 + Micron B27A),240 GB,TLC,2.5,SATA 6 Gbps,2020,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-240-gb.d1565
+ADATA Ultimate SU650 (RTS5735DLQ + SK Hynix V7),240 GB,TLC,2.5,SATA 6 Gbps,2023,RTS5735DLQ,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-240-gb.d1678
+ADATA Ultimate SU650 (RTS5735DLQ + YMTC CDT1B),512 GB,TLC,2.5,SATA 6 Gbps,2021,RTS5735DLQ,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-512-gb.d1767
+ADATA Ultimate SU650 (SM2258XT + Micron B0KB),60 GB 120 GB 240 GB 480 GB,TLC,2.5,SATA 6 Gbps,2018,SM2258XT,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-480-gb.d238
+ADATA Ultimate SU650 (SM2258XT + Micron B16A),60 GB 120 GB 240 GB 480 GB,TLC,2.5,SATA 6 Gbps,2019,SM2258XT,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-480-gb.d1002
+ADATA Ultimate SU650 (SM2258XT + Samsung V4),60 GB 120 GB 240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2018,SM2258XT,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-960-gb.d1007
+ADATA Ultimate SU650 (SM2259XT2 + Intel N38A),240 GB,QLC,2.5,SATA 6 Gbps,2022,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su650-240-gb.d1564
+ADATA Ultimate SU720,500 GB 1 TB 2 TB,Unknown,2.5,SATA 6 Gbps,2020,Unknown,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su720-1-tb.d233
+ADATA Ultimate SU750,256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2019,RTS5733DMQ,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su750-1-tb.d229
+ADATA Ultimate SU760,256 GB 512 GB 1 TB,Unknown,2.5,SATA 6 Gbps,2016,RTS5733DMQ,No,https://www.techpowerup.com/ssd-specs/adata-ultimate-su760-1-tb.d225
+ADATA Ultimate SU800 (Micron B0KB),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2016,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/adata-ultimate-su800-1-tb.d185
+ADATA Ultimate SU800 (Samsung V4),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2021,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/adata-ultimate-su800-1-tb.d1011
+ADATA Ultimate SU900,128 GB 256 GB 512 GB 1 TB 2 TB,MLC,2.5,SATA 6 Gbps,2016,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/adata-ultimate-su900-1-tb.d180
+AMD Radeon R5 (SM2259XT2 + Kioxia BiCS5),256 GB,TLC,2.5,SATA 6 Gbps,Unknown,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/amd-radeon-r5-256-gb.d1358
+AMD Radeon R7,240 GB,MLC,2.5,SATA 6 Gbps,2014,Barefoot 3 M00,Yes,https://www.techpowerup.com/ssd-specs/amd-radeon-r7-240-gb.d1778
+ASUS ROG Ally SSD (Micron 2400),512 GB,QLC,M.2 2230,PCIe 4.0 x4,2022,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/asus-rog-ally-ssd-512-gb.d1560
+ASUS ROG Ally SSD (WD SN740),512 GB 1 TB,TLC,M.2 2230,PCIe 4.0 x4,2022,WD 20-82-10081,HMB,https://www.techpowerup.com/ssd-specs/asus-rog-ally-ssd-1-tb.d1455
+ASUS ROG RAIDR Express,240 GB,MLC,Add-In Card,PCIe 2.0 x2,2013,SF-2281,No,https://www.techpowerup.com/ssd-specs/asus-rog-raidr-express-240-gb.d1306
+Acer FA100 (Micron B27B),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,IG5216,HMB,https://www.techpowerup.com/ssd-specs/acer-fa100-1-tb.d333
+Acer FA100 (Micron B47R),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,IG5216,HMB,https://www.techpowerup.com/ssd-specs/acer-fa100-1-tb.d978
+Acer FA200,500 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/acer-fa200-1-tb.d1920
+Acer GM3500,512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/acer-gm3500-1-tb.d710
+Acer Predator GM7 (YMTC CDT2A X3-9060),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/acer-predator-gm7-1-tb.d1313
+Acer Predator GM7 (YMTC EET1A X3-9070),1 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/acer-predator-gm7-1-tb.d1344
+Acer Predator GM7000,4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/acer-predator-gm7000-4-tb.d1223
+Acer Predator GM7000 (IG5236 + Micron B27B),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/acer-predator-gm7000-1-tb.d330
+Acer Predator GM7000 (IG5236 + Micron B47R),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/acer-predator-gm7000-1-tb.d1234
+Acer SA100,240 GB 480 GB 960 GB 1.9 TB,QLC,2.5,SATA 6 Gbps,2021,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/acer-sa100-960-gb.d1075
+Addlink A90,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/addlink-a90-1-tb.d1093
+Addlink A92,1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/addlink-a92-1-tb.d1096
+Addlink A93,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/addlink-a93-1-tb.d1610
+Addlink A95,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/addlink-a95-1-tb.d1099
+Addlink NAS D60,960 GB 1.9 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E18DC,Yes,https://www.techpowerup.com/ssd-specs/addlink-nas-d60-960-gb.d2183
+Addlink S70,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/addlink-s70-1-tb.d345
+Addlink S90,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/addlink-s90-1-tb.d343
+Addlink S90 Lite,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/addlink-s90-lite-1-tb.d1440
+Addlink S91 (Phison E21T + Kioxia BiCS5),512 GB,TLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/addlink-s91-512-gb.d1547
+Addlink S91 (Phison E21T + Micron N48R),1 TB 2 TB,QLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/addlink-s91-1-tb.d1546
+Addlink S95,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/addlink-s95-1-tb.d342
+Addlink X70 RGB,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/addlink-x70-rgb-1-tb.d338
+Aigo SMI70,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,SM2268XT,No,https://www.techpowerup.com/ssd-specs/aigo-smi70-1-tb.d1964
+Anaconda i3 (MAP1202 + SK Hynix V7 512Gb),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/anaconda-i3-1-tb.d1953
+Anaconda i3 (Phison E12S + Micron B27B),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,MAP1202A-F1C,Yes,https://www.techpowerup.com/ssd-specs/anaconda-i3-1-tb.d1956
+Anaconda i4-X Fiery Serpent,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/anaconda-i4-x-fiery-serpent-1-tb.d2003
+Aorus Gen4 7000s Premium SSD (E18 + B27B),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-7000s-premium-ssd-1-tb.d406
+Aorus Gen4 7000s Premium SSD (E18 + B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-7000s-premium-ssd-1-tb.d900
+Aorus Gen4 7000s SSD (E18 + B27B),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-7000s-ssd-1-tb.d404
+Aorus Gen4 7000s SSD (E18 + B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-7000s-ssd-1-tb.d898
+Aorus Gen4 7300,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-7300-1-tb.d1319
+Aorus Gen4 AIC SSD,2 TB,TLC,Add-In Card,PCIe 4.0 x16,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-aic-ssd-2-tb.d794
+Aorus Gen4 SSD,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-ssd-1-tb.d398
+Aorus Gen4 SSD (v2),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen4-ssd-v2-1-tb.d401
+Aorus Gen5 12000,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/aorus-gen5-12000-1-tb.d1608
+Aorus RAID SSD,2 TB,TLC,Add-In Card,PCIe 3.0 x8,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/aorus-raid-ssd-2-tb.d602
+Aorus RGB AIC NVMe SSD,512 GB 1 TB,TLC,Add-In Card,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/aorus-rgb-aic-nvme-ssd-1-tb.d816
+Aorus RGB SSD (Kioxia BiCS3),256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/aorus-rgb-ssd-512-gb.d976
+Aorus RGB SSD (Micron B27A),256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/aorus-rgb-ssd-512-gb.d395
+Apacer AS2280P4U Pro (MAP1202 + SK Hynix V6 512Gb),256 GB,TLC,M.2 2280,PCIe 3.0 x4,2021,MAP1202A-F1C,Yes,https://www.techpowerup.com/ssd-specs/apacer-as2280p4u-pro-256-gb.d1985
+Apacer AS2280P4U Pro (Phison E12S + Unkown TLC),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/apacer-as2280p4u-pro-1-tb.d1107
+Apacer AS2280Q4,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/apacer-as2280q4-1-tb.d1104
+Apacer AS2280Q4U (MAP1602 + YMTC EET1A),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/apacer-as2280q4u-1-tb.d1615
+Apacer AS2280Q4U (Phison E18 + Micron B47R),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/apacer-as2280q4u-1-tb.d1101
+Apacer Endurance NAS PPSS25,256 GB 512 GB,TLC,2.5,SATA 6 Gbps,2022,Phison S11,No,https://www.techpowerup.com/ssd-specs/apacer-endurance-nas-ppss25-512-gb.d2178
+Apple Macbook Air M2,256 GB,Unknown,Embedded,PCIe 3.0 x4,2022,Air M2,Yes,https://www.techpowerup.com/ssd-specs/apple-macbook-air-m2-256-gb.d1412
+Apple iMac M1 24 inch,256 GB,Unknown,Embedded,Unknown,2021,M1,Yes,https://www.techpowerup.com/ssd-specs/apple-imac-m1-24-inch-256-gb.d1416
+Asgard AN3+,512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,STAR1000P,Yes,https://www.techpowerup.com/ssd-specs/asgard-an3-1-tb.d350
+Asgard AN3.0,512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/asgard-an3-0-1-tb.d1045
+Asgard AN4,1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/asgard-an4-1-tb.d349
+Asgard AN4+,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/asgard-an4-1-tb.d1489
+Asura Genesis Xtreme,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/asura-genesis-xtreme-1-tb.d353
+Ayaneo 2,1 TB,QLC,M.2 2280,PCIe 3.0 x4,2023,RTS5765DL,HMB,https://www.techpowerup.com/ssd-specs/ayaneo-2-1-tb.d1885
+Biostar M700 (Micron B16A),512 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/biostar-m700-512-gb.d357
+Biostar M700 (Micron B17A),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/biostar-m700-1-tb.d358
+Biostar M700 (Spectek B17A),256 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/biostar-m700-256-gb.d356
+Biwin NV7400,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/biwin-nv7400-1-tb.d2087
+Biwin X570,2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,MAP1806A,Yes,https://www.techpowerup.com/ssd-specs/biwin-x570-2-tb.d2028
+Colorful CN700,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/colorful-cn700-1-tb.d1181
+Corsair MP300,120 GB 240 GB 480 GB 960 GB,TLC,M.2 2280,PCIe 3.0 x2,2018,Phison E8,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp300-960-gb.d387
+Corsair MP400,1 TB 2 TB 4 TB 8 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp400-1-tb.d380
+Corsair MP510 (Kioxia BiCS3),240 GB 480 GB 960 GB 1.9 TB,TLC,M.2 2280,PCIe 3.0 x4,2016,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp510-960-gb.d377
+Corsair MP510 (Kioxia BiCS4),3.8 TB,TLC,M.2 2280,PCIe 3.0 x4,2016,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp510-3-8-tb.d379
+Corsair MP600,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-1-tb.d373
+Corsair MP600 CORE,1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-core-1-tb.d369
+Corsair MP600 Core Mini (Phison E21T + Micron N48R),2 TB,QLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-core-mini-2-tb.d1797
+Corsair MP600 Core XT,1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-core-xt-1-tb.d1458
+Corsair MP600 Elite,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-elite-1-tb.d1913
+Corsair MP600 Elite (w/ Heatsink),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-elite-w-heatsink-1-tb.d1911
+Corsair MP600 GS,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-gs-1-tb.d1164
+Corsair MP600 Mini,1 TB 2 TB,TLC,M.2 2230,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-mini-1-tb.d2018
+Corsair MP600 Mini (Phison E21T + Micron B47R),1 TB,TLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp600-mini-1-tb.d1461
+Corsair MP600 PRO,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-1-tb.d366
+Corsair MP600 PRO XT,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-xt-1-tb.d361
+Corsair MP600 PRO XT (Phison E18 + Kioxia BiCS5),8 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-xt-8-tb.d1056
+Corsair MP600 PRO XT Hydro X,2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-xt-hydro-x-2-tb.d363
+Corsair MP600 Pro Hydro X,2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-hydro-x-2-tb.d364
+Corsair MP600 Pro LPX (Kioxia BiCS5 TLC 512Gb),2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-lpx-2-tb.d2266
+Corsair MP600 Pro LPX (Micron TLC B47R 512Gb),500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-lpx-1-tb.d617
+Corsair MP600 Pro NH (Phison E18 + Kioxia BiCS5),2 TB 8 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-nh-2-tb.d1554
+Corsair MP600 Pro NH (Phison E18 + Micron B47R),500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp600-pro-nh-1-tb.d1158
+Corsair MP700,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp700-1-tb.d1469
+Corsair MP700 Elite,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E31T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp700-elite-1-tb.d2237
+Corsair MP700 Elite (w/ Heatsink),1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E31T,HMB,https://www.techpowerup.com/ssd-specs/corsair-mp700-elite-w-heatsink-1-tb.d2239
+Corsair MP700 Pro,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp700-pro-1-tb.d1782
+Corsair MP700 Pro (w/ Heatsink),1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp700-pro-w-heatsink-1-tb.d1780
+Corsair MP700 Pro Hydro X,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp700-pro-hydro-x-2-tb.d1783
+Corsair MP700 Pro SE,2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp700-pro-se-2-tb.d1997
+Corsair MP700 Pro SE Hydro X,2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/corsair-mp700-pro-se-hydro-x-2-tb.d1999
+Crucial BX100,120 GB 250 GB 500 GB 1 TB,MLC,2.5,SATA 6 Gbps,2014,SM2246EN,Yes,https://www.techpowerup.com/ssd-specs/crucial-bx100-1-tb.d105
+Crucial BX200,240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2015,SM2256G,Yes,https://www.techpowerup.com/ssd-specs/crucial-bx200-960-gb.d101
+Crucial BX300,120 GB 240 GB 480 GB,MLC,2.5,SATA 6 Gbps,2017,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/crucial-bx300-480-gb.d98
+Crucial BX500 (Micron B16A),240 GB 480 GB,TLC,2.5,SATA 6 Gbps,2018,SM2258XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-480-gb.d92
+Crucial BX500 (Micron B17A),120 GB 240 GB 480 GB 960 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2259XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-1-tb.d94
+Crucial BX500 (Micron B27A),240 GB 480 GB 960 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2259XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-1-tb.d960
+Crucial BX500 (Micron B37R),240 GB 480 GB 960 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2259XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-1-tb.d967
+Crucial BX500 (Micron B47R),240 GB,TLC,2.5,SATA 6 Gbps,2018,SM2259XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-240-gb.d1477
+Crucial BX500 (Micron N18A),1 TB 2 TB,QLC,2.5,SATA 6 Gbps,2018,SM2259XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-1-tb.d962
+Crucial BX500 (Micron N28A),1 TB 2 TB,QLC,2.5,SATA 6 Gbps,2022,SM2259XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-1-tb.d1252
+Crucial BX500 (Micron N48R),500 GB 1 TB,QLC,2.5,SATA 6 Gbps,2022,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-1-tb.d1180
+Crucial BX500 (SpecTek B16A),120 GB,TLC,2.5,SATA 6 Gbps,2018,SM2258XT,No,https://www.techpowerup.com/ssd-specs/crucial-bx500-120-gb.d90
+Crucial M4,64 GB 128 GB 256 GB 512 GB,MLC,2.5,SATA 6 Gbps,2011,88SS9174,Yes,https://www.techpowerup.com/ssd-specs/crucial-m4-512-gb.d1288
+Crucial MX100,128 GB 256 GB 512 GB,MLC,2.5,SATA 6 Gbps,2014,88SS9189,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx100-512-gb.d89
+Crucial MX200,250 GB 500 GB 1 TB,MLC,2.5,SATA 6 Gbps,2015,88SS9189,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx200-1-tb.d86
+Crucial MX300,275 GB 525 GB 750 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2016,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx300-1-tb.d82
+Crucial MX500 (Micron B16A),250 GB 500 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx500-1-tb.d77
+Crucial MX500 (Micron B17A),250 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx500-1-tb.d934
+Crucial MX500 (Micron B27A),250 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx500-1-tb.d941
+Crucial MX500 (Micron B37R),250 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx500-1-tb.d945
+Crucial MX500 (Micron B47R),250 GB 500 GB 1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,2022,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/crucial-mx500-1-tb.d949
+Crucial P1,500 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2018,SM2263EN,Yes,https://www.techpowerup.com/ssd-specs/crucial-p1-1-tb.d118
+Crucial P2 (Micron B16A),250 GB 500 GB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E13,HMB,https://www.techpowerup.com/ssd-specs/crucial-p2-500-gb.d114
+Crucial P2 (Micron B27A),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E13,HMB,https://www.techpowerup.com/ssd-specs/crucial-p2-1-tb.d115
+Crucial P2 (Micron N28A),1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2021,Phison E13,HMB,https://www.techpowerup.com/ssd-specs/crucial-p2-1-tb.d987
+Crucial P3,500 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 3.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/crucial-p3-1-tb.d828
+Crucial P3 Plus (Micron B58R FortisFlash),500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/crucial-p3-plus-1-tb.d2160
+Crucial P3 Plus (Micron N48R FortisFlash),500 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/crucial-p3-plus-1-tb.d825
+Crucial P310,1 TB 2 TB,QLC,M.2 2230,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/crucial-p310-1-tb.d2073
+Crucial P5,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,DM01B2,Yes,https://www.techpowerup.com/ssd-specs/crucial-p5-1-tb.d111
+Crucial P5 Plus,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,DM02A1,Yes,https://www.techpowerup.com/ssd-specs/crucial-p5-plus-1-tb.d107
+Crucial P510,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2025,Phison E31T,HMB,https://www.techpowerup.com/ssd-specs/crucial-p510-2-tb.d2279
+Crucial T500,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E25,Yes,https://www.techpowerup.com/ssd-specs/crucial-t500-1-tb.d1771
+Crucial T500 (w/ Heatsink),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E25,Yes,https://www.techpowerup.com/ssd-specs/crucial-t500-w-heatsink-1-tb.d1772
+Crucial T700,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/crucial-t700-1-tb.d1463
+Crucial T700 (w/ Heatsink),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/crucial-t700-w-heatsink-1-tb.d1425
+Crucial T700 Pro,4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/crucial-t700-pro-4-tb.d1857
+Crucial T705,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/crucial-t705-1-tb.d1924
+Crucial T705 (w/ Heatsink),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/crucial-t705-w-heatsink-1-tb.d1928
+Crucial T705 (w/ White Heatsink),2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/crucial-t705-w-white-heatsink-2-tb.d1930
+Crucial X8,500 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 3.0 x4,2019,SM2263EN,Yes,https://www.techpowerup.com/ssd-specs/crucial-x8-1-tb.d1138
+DapuStor Haishen3 H3000,1 TB 2 TB 4 TB 8 TB 16 TB,TLC,U.2,PCIe 3.0 x4,2020,88SS1098,Yes,https://www.techpowerup.com/ssd-specs/dapustor-haishen3-h3000-1-tb.d1647
+DapuStor Haishen3 H3100,800 GB 1.6 TB 3 TB 6 TB 13 TB,TLC,U.2,PCIe 3.0 x4,2020,88SS1098,Yes,https://www.techpowerup.com/ssd-specs/dapustor-haishen3-h3100-800-gb.d1648
+DapuStor Haishen3 H3200,3.8 TB,TLC,U.2,PCIe 3.0 x4,2020,88SS1098,Yes,https://www.techpowerup.com/ssd-specs/dapustor-haishen3-h3200-3-8-tb.d1652
+DapuStor Haishen5 H5100,7.5 TB,TLC,U.2,PCIe 5.0 x4,2023,Bravera,Yes,https://www.techpowerup.com/ssd-specs/dapustor-haishen5-h5100-7-5-tb.d1785
+DapuStor Roalsen SSD R5100,7.5 TB 15 TB,TLC,U.2,PCIe 4.0 x4,2022,DP616,Yes,https://www.techpowerup.com/ssd-specs/dapustor-roalsen-ssd-r5100-7-5-tb.d2169
+DapuStor Roealsen5 R5110 (Kioxia BiCS4 eTLC),3.8 TB,TLC,Add-In Card,PCIe 4.0 x8,Unknown,DP616,Yes,https://www.techpowerup.com/ssd-specs/dapustor-roealsen5-r5110-3-8-tb.d1659
+DapuStor Roealsen5 R5110 (Kioxia BiCS5 eTLC),7.5 TB,TLC,Add-In Card,PCIe 4.0 x8,Unknown,DP616,Yes,https://www.techpowerup.com/ssd-specs/dapustor-roealsen5-r5110-7-5-tb.d1660
+DapuStor Roealsen5 R5310 (Kioxia BiCS4 eTLC),3 TB,TLC,Add-In Card,PCIe 4.0 x8,Unknown,DP616,Yes,https://www.techpowerup.com/ssd-specs/dapustor-roealsen5-r5310-3-tb.d1661
+DapuStor Roealsen5 R5310 (Kioxia BiCS5 eTLC),6 TB,TLC,Add-In Card,PCIe 4.0 x8,Unknown,DP616,Yes,https://www.techpowerup.com/ssd-specs/dapustor-roealsen5-r5310-6-tb.d1662
+DapuStor Xlenstor X2900,800 GB 1.6 TB,SLC,U.2,PCIe 4.0 x4,2021,DP616,Yes,https://www.techpowerup.com/ssd-specs/dapustor-xlenstor-x2900-800-gb.d1663
+Dera D7436,1.9 TB 3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 4.0 x4,Unknown,EMEI,Yes,https://www.techpowerup.com/ssd-specs/dera-d7436-1-9-tb.d1688
+Dera D7456,1.6 TB 3 TB 6 TB 13 TB,TLC,U.2,PCIe 4.0 x4,Unknown,EMEI,Yes,https://www.techpowerup.com/ssd-specs/dera-d7456-1-6-tb.d1692
+Digifast Ace,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/digifast-ace-1-tb.d1110
+Digifast Knight,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/digifast-knight-1-tb.d1115
+Digma Meta P7,512 GB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/digma-meta-p7-512-gb.d1792
+Digma Top G3,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,IG5236,Yes,https://www.techpowerup.com/ssd-specs/digma-top-g3-1-tb.d1448
+Drevo D1 Extreme,256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/drevo-d1-extreme-512-gb.d1117
+Enmotus FuzeDrive P200,900 GB 1.6 TB,QLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/enmotus-fuzedrive-p200-900-gb.d389
+Fanxiang S109,1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,Unknown,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/fanxiang-s109-1-tb.d1870
+Fanxiang S500 Pro,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,Unknown,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/fanxiang-s500-pro-1-tb.d1438
+Fanxiang S660,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1608A-F3C,HMB,https://www.techpowerup.com/ssd-specs/fanxiang-s660-1-tb.d1988
+Fanxiang S770 (SK Hynix TLC V7 512Gb),1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/fanxiang-s770-1-tb.d2281
+Fanxiang S770 (YMTC TLC CDT1B 512Gb 128-Layers),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/fanxiang-s770-1-tb.d1309
+Fanxiang S770M,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,IG5236,Yes,https://www.techpowerup.com/ssd-specs/fanxiang-s770m-1-tb.d1599
+Fanxiang S880,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/fanxiang-s880-1-tb.d1589
+Fanxiang S900 Pro,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/fanxiang-s900-pro-1-tb.d1774
+FlumeIO F5900,3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 5.0 x4,2023,Bravera,Yes,https://www.techpowerup.com/ssd-specs/flumeio-f5900-3-8-tb.d2138
+FlumeIO F5901,3 TB 6 TB 13 TB,TLC,U.2,PCIe 5.0 x4,2023,Bravera,Yes,https://www.techpowerup.com/ssd-specs/flumeio-f5901-3-tb.d2026
+Framework 16,1 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,WD 20-82-10034-A1,Yes,https://www.techpowerup.com/ssd-specs/framework-16-1-tb.d1889
+Galax HOF 50 PCIe Gen5,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/galax-hof-50-pcie-gen5-1-tb.d1432
+Galax HOF Extreme 50 SSD,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/galax-hof-extreme-50-ssd-1-tb.d1301
+Galax HOF PCI-E SSD,512 GB 1 TB 2 TB,TLC,Add-In Card,PCIe 3.0 x4,Unknown,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/galax-hof-pci-e-ssd-1-tb.d393
+Galax HOF Pro,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/galax-hof-pro-1-tb.d391
+Galax HOF Pro 20,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/galax-hof-pro-20-1-tb.d796
+Gigabyte AI TOP 100E,1 TB 2 TB,pSLC,M.2 2280,PCIe 4.0 x4,2024,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/gigabyte-ai-top-100e-1-tb.d2050
+Gigabyte Aorus 5000E,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/gigabyte-aorus-5000e-1-tb.d1165
+Gigabyte Aorus Gen5 10000,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2022,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/gigabyte-aorus-gen5-10000-1-tb.d870
+Gigabyte Gen3 2500E,500 GB 1 TB,Unknown,M.2 2280,PCIe 3.0 x4,2022,Unknown,HMB,https://www.techpowerup.com/ssd-specs/gigabyte-gen3-2500e-1-tb.d1307
+Gigabyte UD Pro,256 GB 512 GB,TLC,2.5,SATA 6 Gbps,2018,Phison S10,Yes,https://www.techpowerup.com/ssd-specs/gigabyte-ud-pro-512-gb.d407
+Goodram PX500 (Phison E13 + Kioxia BiCS5),512 GB,TLC,M.2 2280,PCIe 3.0 x4,2022,Phison E13,HMB,https://www.techpowerup.com/ssd-specs/goodram-px500-512-gb.d1387
+Goodram PX500 (SM2263XT + YTMC BCT1B),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/goodram-px500-1-tb.d1384
+HP EX900,120 GB 250 GB 500 GB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/hp-ex900-500-gb.d415
+HP EX920,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/hp-ex920-1-tb.d412
+HP EX950,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/hp-ex950-1-tb.d410
+HP FX700,512 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/hp-fx700-1-tb.d1855
+HP FX900,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5220,HMB,https://www.techpowerup.com/ssd-specs/hp-fx900-1-tb.d813
+HP FX900 Pro,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/hp-fx900-pro-1-tb.d792
+HP S700,120 GB 250 GB 500 GB,TLC,2.5,SATA 6 Gbps,2017,SM2258XT,No,https://www.techpowerup.com/ssd-specs/hp-s700-500-gb.d422
+HP S700 Pro,128 GB 256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2017,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/hp-s700-pro-1-tb.d418
+HighPoint Rocket 1608,16 TB,TLC,Add-In Card,PCIe 5.0 x16,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/highpoint-rocket-1608-16-tb.d2066
+Hikvision C100,120 GB 240 GB 480 GB,QLC,2.5,SATA 6 Gbps,Unknown,MAS1102B-B1C,No,https://www.techpowerup.com/ssd-specs/hikvision-c100-480-gb.d1335
+Hikvision E100N (MAS1102 + YMTC BCT1B),512 GB,TLC,M.2 2280,SATA 6 Gbps,2021,SM2259XT,No,https://www.techpowerup.com/ssd-specs/hikvision-e100n-512-gb.d1401
+Hikvision E100N (SM2259XT + Micron B47R),128 GB 256 GB 512 GB 1 TB,TLC,M.2 2280,SATA 6 Gbps,2021,SM2259XT,No,https://www.techpowerup.com/ssd-specs/hikvision-e100n-1-tb.d1399
+Hikvision E3000,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/hikvision-e3000-1-tb.d1475
+Hikvision HikSemi C4000,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/hikvision-hiksemi-c4000-1-tb.d1245
+Hikvision HikSemi CC700,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/hikvision-hiksemi-cc700-1-tb.d1242
+Hikvision Hiksemi C4000ECO,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/hikvision-hiksemi-c4000eco-1-tb.d1248
+Hikvision Hiksemi FUTURE,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/hikvision-hiksemi-future-1-tb.d1556
+HippStor HP600,3 TB 3.8 TB 6 TB 7.5 TB,TLC,U.2,PCIe 4.0 x4,2023,DP616,Yes,https://www.techpowerup.com/ssd-specs/hippstor-hp600-3-tb.d2271
+Huawei eKitStor Xtreme 200E,512 GB 1 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,Unknown,No,https://www.techpowerup.com/ssd-specs/huawei-ekitstor-xtreme-200e-1-tb.d2282
+HyperX Fury RGB,240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2018,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/hyperx-fury-rgb-960-gb.d325
+HyperX Savage,240 GB 480 GB 960 GB,MLC,2.5,SATA 6 Gbps,2015,Phison S10,Yes,https://www.techpowerup.com/ssd-specs/hyperx-savage-960-gb.d327
+IRDM CX400 Gen.2 (SpecTek B27B),128 GB 256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/irdm-cx400-gen-2-1-tb.d1377
+IRDM CX400 Gen.2 (Toshiba BiCS3),1 TB,TLC,2.5,SATA 6 Gbps,Unknown,Phison S11,No,https://www.techpowerup.com/ssd-specs/irdm-cx400-gen-2-1-tb.d1380
+IRDM CX400 Gen.2 (Toshiba BiCS4),256 GB,TLC,2.5,SATA 6 Gbps,Unknown,Phison S11,No,https://www.techpowerup.com/ssd-specs/irdm-cx400-gen-2-256-gb.d1381
+IRDM M.2 SSD (E12 + Toshiba BiCS3),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/irdm-m-2-ssd-1-tb.d1372
+IRDM M.2 SSD (E12 + Toshiba BiCS4),512 GB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/irdm-m-2-ssd-512-gb.d1373
+IRDM M.2 SSD (E12S + YMTC BCT1B),512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/irdm-m-2-ssd-1-tb.d1370
+IRDM PRO M.2 SSD,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/irdm-pro-m-2-ssd-1-tb.d779
+IRDM Pro Gen. 2 (Micron B27A),256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2020,Phison S12,Yes,https://www.techpowerup.com/ssd-specs/irdm-pro-gen-2-1-tb.d1361
+IRDM Pro Gen5,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/irdm-pro-gen5-1-tb.d2233
+Inland Performance Plus,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/inland-performance-plus-1-tb.d578
+Inland Prime,500 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E15,HMB,https://www.techpowerup.com/ssd-specs/inland-prime-1-tb.d699
+Inland QN322,500 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2022,Phison E13T,HMB,https://www.techpowerup.com/ssd-specs/inland-qn322-1-tb.d1446
+Inland QN446,2 TB,QLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/inland-qn446-2-tb.d1784
+Inland TD510,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/inland-td510-1-tb.d1430
+Inland TN436,1 TB,TLC,M.2 2230,PCIe 4.0 x4,2022,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/inland-tn436-1-tb.d1305
+Inland TN446,512 GB 1 TB,TLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/inland-tn446-1-tb.d1583
+Inland TN470,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/inland-tn470-1-tb.d1986
+Intel 545s,256 GB 512 GB,TLC,2.5,SATA 6 Gbps,2017,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/intel-545s-512-gb.d441
+Intel 660p,512 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2018,SM2263EN,Yes,https://www.techpowerup.com/ssd-specs/intel-660p-1-tb.d436
+Intel 665p,1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2019,SM2263EN,Yes,https://www.techpowerup.com/ssd-specs/intel-665p-1-tb.d433
+Intel 670p,512 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,SM2265,Yes,https://www.techpowerup.com/ssd-specs/intel-670p-1-tb.d431
+Intel 760p,128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262G,Yes,https://www.techpowerup.com/ssd-specs/intel-760p-1-tb.d426
+Intel DC P3700,400 GB,MLC,Add-In Card,PCIe 3.0 x4,2014,CH29AE41AB0,Yes,https://www.techpowerup.com/ssd-specs/intel-dc-p3700-400-gb.d1915
+Intel DC S3510,80 GB 120 GB 240 GB 480 GB 800 GB 1.2 TB 1.6 TB,MLC,2.5,SATA 6 Gbps,2015,PC29AS21CB0,Yes,https://www.techpowerup.com/ssd-specs/intel-dc-s3510-1-2-tb.d1949
+Intel S3700,400 GB 800 GB,MLC,2.5,SATA 6 Gbps,2015,PC29AS21CA0,Yes,https://www.techpowerup.com/ssd-specs/intel-s3700-800-gb.d1873
+Intel SSD 750,400 GB 800 GB 1.2 TB,MLC,Add-In Card,PCIe 3.0 x4,2015,CH29AE41AB0,Yes,https://www.techpowerup.com/ssd-specs/intel-ssd-750-1-2-tb.d438
+Intel X25-M G2,80 GB 160 GB,MLC,2.5,SATA 3 Gbps,2010,PC29AS21BA0,Yes,https://www.techpowerup.com/ssd-specs/intel-x25-m-g2-160-gb.d1296
+Kingspec NE Series,128 GB,TLC,M.2 2280,PCIe 3.0 x4,Unknown,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/kingspec-ne-series-128-gb.d1330
+Kingspec NX Series (MaxioTech + B27B),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/kingspec-nx-series-1-tb.d1082
+Kingspec NX Series (SM2263XT),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/kingspec-nx-series-1-tb.d1090
+Kingspec XF Series,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,TC2200,HMB,https://www.techpowerup.com/ssd-specs/kingspec-xf-series-1-tb.d1080
+Kingspec XG7000,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/kingspec-xg7000-1-tb.d2221
+Kingspec XG7000 Pro,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/kingspec-xg7000-pro-1-tb.d1418
+Kingston A1000,240 GB 480 GB 960 GB,TLC,M.2 2280,PCIe 3.0 x2,2018,Phison E8,Yes,https://www.techpowerup.com/ssd-specs/kingston-a1000-960-gb.d322
+Kingston A2000,250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2263EN,Yes,https://www.techpowerup.com/ssd-specs/kingston-a2000-1-tb.d285
+Kingston A400 (Micron B17A),120 GB 240 GB 480 GB 960 GB 1.9 TB,TLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/kingston-a400-960-gb.d289
+Kingston A400 (SM2259XT2 + BiCS5 QLC),960 GB,QLC,2.5,SATA 6 Gbps,2018,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/kingston-a400-960-gb.d1668
+Kingston A400 (SM2259XT2 + YMTC CDT1B),480 GB,TLC,2.5,SATA 6 Gbps,2018,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/kingston-a400-480-gb.d1669
+Kingston A400 (Toshiba 15nm),120 GB 240 GB,TLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/kingston-a400-240-gb.d287
+Kingston DC1500M,1.9 TB 7.5 TB,TLC,U.2,PCIe 3.0 x4,2021,SM2270,Yes,https://www.techpowerup.com/ssd-specs/kingston-dc1500m-1-9-tb.d2130
+Kingston DC2000B,240 GB 480 GB 960 GB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E18DC,Yes,https://www.techpowerup.com/ssd-specs/kingston-dc2000b-960-gb.d2165
+Kingston DC500M,480 GB 960 GB 1.9 TB 3.8 TB,TLC,2.5,SATA 6 Gbps,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/kingston-dc500m-960-gb.d314
+Kingston DC500R,480 GB 960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,2.5,SATA 6 Gbps,2019,Phison S12,Yes,https://www.techpowerup.com/ssd-specs/kingston-dc500r-960-gb.d309
+Kingston DC600M,960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,2.5,SATA 6 Gbps,2023,Phison S12DC,Yes,https://www.techpowerup.com/ssd-specs/kingston-dc600m-960-gb.d2052
+Kingston FURY Renegade,500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/kingston-fury-renegade-1-tb.d609
+Kingston FURY Renegade (w/ Heatsink),500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/kingston-fury-renegade-w-heatsink-1-tb.d1183
+Kingston KC1000,240 GB 480 GB 960 GB,TLC,M.2 2280,PCIe 3.0 x4,2017,Phison E7,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc1000-960-gb.d319
+Kingston KC2000,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc2000-1-tb.d279
+Kingston KC2500,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc2500-1-tb.d264
+Kingston KC3000 (Kioxia BiCS5 HDR 1Tb),4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc3000-4-tb.d1908
+Kingston KC3000 (Kioxia BiCS5 HDR 512Gb),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc3000-1-tb.d1906
+Kingston KC3000 (Micron B47R),512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc3000-1-tb.d259
+Kingston KC400,128 GB 256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2016,Phison S10,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc400-1-tb.d307
+Kingston KC600 (SM2259 + Micron B16A),512 GB,TLC,2.5,SATA 6 Gbps,2020,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc600-512-gb.d1568
+Kingston KC600 (SM2259 + Micron B27A),256 GB 512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2019,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc600-1-tb.d293
+Kingston KC600 (SM2259 + Micron B47R),1 TB,TLC,2.5,SATA 6 Gbps,2023,SM2259H,Yes,https://www.techpowerup.com/ssd-specs/kingston-kc600-1-tb.d1562
+Kingston NV1 (Phison E13T + Micron N18A),250 GB 500 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2021,Phison 13T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv1-1-tb.d1037
+Kingston NV1 (SM2263XT + Kioxia BiCS5),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv1-1-tb.d1423
+Kingston NV1 (SM2263XT + Micron N28A),250 GB 500 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2021,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv1-1-tb.d1033
+Kingston NV2 (Phison E19T + Kioxia BiCS5 512Gb),250 GB 500 GB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-500-gb.d2114
+Kingston NV2 (Phison E19T + Micron B47R),250 GB 500 GB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-500-gb.d2116
+Kingston NV2 (Phison E21T + Intel N38A),1 TB,QLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2112
+Kingston NV2 (Phison E21T + Kioxia BiCS5 1Tb),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2109
+Kingston NV2 (Phison E21T + Kioxia BiCS5 512Gb),250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d1043
+Kingston NV2 (Phison E21T + Micron N48R),1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2106
+Kingston NV2 (Phison E21T),2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-2-tb.d1044
+Kingston NV2 (SM2267XT + Intel N38A),1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2022,SM2267XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d1284
+Kingston NV2 (SM2267XT + YMTC CDT1B),250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,SM2267XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2105
+Kingston NV2 (SM2267XT),250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,SM2267XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d1187
+Kingston NV2 (SM2269XT + Kioxia BiCS5 1Tb),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2099
+Kingston NV2 (SM2269XT + Micron B47R),500 GB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,SM2267XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-500-gb.d2102
+Kingston NV2 (SM2269XT + Micron N48R),1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,Unknown,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2097
+Kingston NV2 (Tenafe TC2200 + Intel N38A),1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,Unknown,TC2200,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2095
+Kingston NV2 (Tenafe TC2200 + YMTC CDT1B),250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,TC2200,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv2-1-tb.d2092
+Kingston NV3 (Phison E27T + Kioxia BiCS6 TLC 1Tb),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv3-1-tb.d2164
+Kingston NV3 (SM2268XT2 + Kioxia BiCS6 QLC 1Tb),500 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,SM2268XT2,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv3-1-tb.d2162
+Kingston NV3 (TenaFe TC2201 + Kioxia BiCS6 QLC 1Tb),2 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,TC2201,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv3-2-tb.d2215
+Kingston NV3 (TenaFe TC2201 + YMTC QLC 1Tb X3-6070),1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,TC2201,HMB,https://www.techpowerup.com/ssd-specs/kingston-nv3-1-tb.d2261
+Kingston UV400,120 GB 240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2016,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/kingston-uv400-960-gb.d303
+Kingston UV500,120 GB 240 GB 480 GB 960 GB 1.9 TB,TLC,2.5,SATA 6 Gbps,2018,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/kingston-uv500-960-gb.d298
+Kioxia BG6 (Kioxia BiCS5),256 GB 512 GB,TLC,M.2 2230,PCIe 4.0 x4,2023,SM2268XT,HMB,https://www.techpowerup.com/ssd-specs/kioxia-bg6-512-gb.d1748
+Kioxia BG6 (Kioxia BiCS5),256 GB 512 GB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2268XT,HMB,https://www.techpowerup.com/ssd-specs/kioxia-bg6-512-gb.d1745
+Kioxia BG6 (Kioxia BiCS6),1 TB 2 TB,TLC,M.2 2230,PCIe 4.0 x4,2023,SM2268XT,HMB,https://www.techpowerup.com/ssd-specs/kioxia-bg6-1-tb.d1747
+Kioxia BG6 (Kioxia BiCS6),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2268XT,HMB,https://www.techpowerup.com/ssd-specs/kioxia-bg6-1-tb.d1744
+Kioxia CD6-R,960 GB 1.9 TB 3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 4.0 x4,2020,88SS1132,Yes,https://www.techpowerup.com/ssd-specs/kioxia-cd6-r-960-gb.d760
+Kioxia CD8-R,7.5 TB,TLC,U.2,PCIe 4.0 x4,2021,TC58NC1030GTB V2,Yes,https://www.techpowerup.com/ssd-specs/kioxia-cd8-r-7-5-tb.d2224
+Kioxia Exceria,240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2021,Phison S11,No,https://www.techpowerup.com/ssd-specs/kioxia-exceria-960-gb.d1364
+Kioxia Exceria G2,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/kioxia-exceria-g2-1-tb.d1341
+Kioxia Exceria Plus,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/kioxia-exceria-plus-1-tb.d575
+Kioxia Exceria Plus G2,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2024,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/kioxia-exceria-plus-g2-1-tb.d2022
+Kioxia Exceria Plus G3,2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/kioxia-exceria-plus-g3-2-tb.d1923
+Kioxia Exceria Pro,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/kioxia-exceria-pro-1-tb.d778
+Kioxia FL6,800 GB 1.6 TB 3 TB,SLC,U.3,PCIe 4.0 x4,2021,TC58NC1132GTC,Yes,https://www.techpowerup.com/ssd-specs/kioxia-fl6-800-gb.d1880
+Kioxia XG6,512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,TC58NCP090GSD (Phison E7),Yes,https://www.techpowerup.com/ssd-specs/kioxia-xg6-1-tb.d2170
+Kioxia XG8,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/kioxia-xg8-1-tb.d1054
+Klevv CRAS C910,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5220,HMB,https://www.techpowerup.com/ssd-specs/klevv-cras-c910-1-tb.d1197
+Klevv CRAS C910 (RTS5772DL + SK Hynix V6 512Gb),1 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,RTS5772DL,HMB,https://www.techpowerup.com/ssd-specs/klevv-cras-c910-1-tb.d2241
+Klevv CRAS C920,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/klevv-cras-c920-1-tb.d613
+Klevv CRAS C925,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/klevv-cras-c925-1-tb.d2217
+Klevv CRAS C930,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/klevv-cras-c930-1-tb.d1196
+Klevv CRAS CR700 RGB,480 GB 960 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2263EN,Yes,https://www.techpowerup.com/ssd-specs/klevv-cras-cr700-rgb-960-gb.d1066
+Klevv Genuine G560,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/klevv-genuine-g560-1-tb.d2248
+Kodak X100 (SM2259XT + Micron B47R),120 GB 240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2021,SM2259XT,No,https://www.techpowerup.com/ssd-specs/kodak-x100-960-gb.d1079
+Kootion X16 Plus,1 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/kootion-x16-plus-1-tb.d1922
+Lenovo Legion Go,1 TB,TLC,M.2 2242,PCIe 4.0 x4,2023,WD 20-82-10081,HMB,https://www.techpowerup.com/ssd-specs/lenovo-legion-go-1-tb.d1884
+Lexar Ares (MAP1602 + Micron B58R),4 TB 8 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/lexar-ares-4-tb.d2232
+Lexar Ares (MAP1602 + YMTC X3-9070 EET1A),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/lexar-ares-1-tb.d1479
+Lexar NM600,240 GB 480 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/lexar-nm600-480-gb.d593
+Lexar NM610,250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/lexar-nm610-1-tb.d590
+Lexar NM610 Pro,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2023,SM2263XT,No,https://www.techpowerup.com/ssd-specs/lexar-nm610-pro-1-tb.d1596
+Lexar NM620 (IG5216 + Micron B27B),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,IG5216,HMB,https://www.techpowerup.com/ssd-specs/lexar-nm620-1-tb.d584
+Lexar NM620 (MAP1202 + Micron B47R),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2023,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/lexar-nm620-1-tb.d1522
+Lexar NM700,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,88SS1092,Yes,https://www.techpowerup.com/ssd-specs/lexar-nm700-1-tb.d581
+Lexar NM710,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/lexar-nm710-1-tb.d1665
+Lexar NM790,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/lexar-nm790-1-tb.d1493
+Lexar NM800,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/lexar-nm800-1-tb.d579
+Lexar NM800 Pro,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/lexar-nm800-pro-1-tb.d874
+Lexar NM800 Pro (w/ Heatsink),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/lexar-nm800-pro-w-heatsink-1-tb.d872
+Lexar NQ100,240 GB 480 GB 960 GB,QLC,2.5,SATA 6 Gbps,2021,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/lexar-nq100-960-gb.d600
+Lexar NQ790,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/lexar-nq790-1-tb.d2091
+Lexar NS100,256 GB 512 GB,TLC,2.5,SATA 6 Gbps,2018,88NV1120,No,https://www.techpowerup.com/ssd-specs/lexar-ns100-512-gb.d599
+Lexar NS200,240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2018,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/lexar-ns200-960-gb.d596
+Lexar Play,1 TB,TLC,M.2 2230,PCIe 4.0 x4,2023,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/lexar-play-1-tb.d1818
+Lexar Play,4 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/lexar-play-4-tb.d2172
+Longsys FORESEE ORCA 4836 Max,1.6 TB 3 TB 6 TB,TLC,U.2,PCIe 4.0 x4,2023,NVMe3108,Yes,https://www.techpowerup.com/ssd-specs/longsys-foresee-orca-4836-max-1-6-tb.d1835
+Longsys FORESEE ORCA 4836 Pro,1.9 TB 3.8 TB 7.5 TB,TLC,U.2,PCIe 4.0 x4,2023,NVMe3108,Yes,https://www.techpowerup.com/ssd-specs/longsys-foresee-orca-4836-pro-1-9-tb.d1833
+MLD M500,1 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/mld-m500-1-tb.d1796
+MLD M700,1 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/mld-m700-1-tb.d1996
+MSI Spatium M370,1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E15,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m370-1-tb.d572
+MSI Spatium M390,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E15,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m390-1-tb.d566
+MSI Spatium M450 (Phison E19 + Kioxia BiCS5),1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m450-1-tb.d1567
+MSI Spatium M450 (Phison E19 + Micron B47R),250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m450-1-tb.d704
+MSI Spatium M450 (Phison E19 + SK Hynix V7 512Gb),500 GB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m450-500-gb.d2077
+MSI Spatium M461,500 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m461-1-tb.d1703
+MSI Spatium M470,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m470-1-tb.d564
+MSI Spatium M480,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m480-1-tb.d273
+MSI Spatium M480 Play,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m480-play-1-tb.d763
+MSI Spatium M480 Pro,2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m480-pro-2-tb.d1514
+MSI Spatium M482,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m482-1-tb.d2198
+MSI Spatium M560,1 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E31T,HMB,https://www.techpowerup.com/ssd-specs/msi-spatium-m560-1-tb.d2024
+MSI Spatium M570 HS,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2022,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m570-hs-1-tb.d1057
+MSI Spatium M570 Pro Frozr,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m570-pro-frozr-1-tb.d1843
+MSI Spatium M580 Frozr 2TB,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m580-frozr-2tb-2-tb.d1974
+MSI Spatium M580 Frozr 4TB,4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m580-frozr-4tb-4-tb.d1975
+MSI Spatium M580 Frozr Liquid,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/msi-spatium-m580-frozr-liquid-2-tb.d1879
+MSI Spatium S270 (Kioxia BiCS5 512Gb),120 GB 240 GB 480 GB,TLC,2.5,SATA 6 Gbps,2023,Phison S11,No,https://www.techpowerup.com/ssd-specs/msi-spatium-s270-480-gb.d2083
+MSI Spatium S270 (Spectek B17A),960 GB,TLC,2.5,SATA 6 Gbps,2023,Phison S11,No,https://www.techpowerup.com/ssd-specs/msi-spatium-s270-960-gb.d2082
+Magix Alpha EVO,120 GB 240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2022,SM2258XT,No,https://www.techpowerup.com/ssd-specs/magix-alpha-evo-960-gb.d1142
+Mancer Blink X1 (SM2258XT + TLC),240 GB 512 GB,TLC,2.5,SATA 6 Gbps,2022,SM2258XT,No,https://www.techpowerup.com/ssd-specs/mancer-blink-x1-512-gb.d1537
+Mancer Blink X1 (SM2259XT + TLC),240 GB 512 GB,TLC,2.5,SATA 6 Gbps,2022,SM2259XT,No,https://www.techpowerup.com/ssd-specs/mancer-blink-x1-512-gb.d1538
+Mancer Blink X1 (YS9082HC + Intel N38A),240 GB 512 GB,QLC,2.5,SATA 6 Gbps,2022,YS9082HC,No,https://www.techpowerup.com/ssd-specs/mancer-blink-x1-512-gb.d1536
+Memblaze P7946,6 TB,TLC,U.2,PCIe 5.0 x4,2023,Bravera,Yes,https://www.techpowerup.com/ssd-specs/memblaze-p7946-6-tb.d1582
+Memblaze PBlaze5 C916,6.4 TB,TLC,Add-In Card,PCIe 3.0 x8,2020,PM8607,Yes,https://www.techpowerup.com/ssd-specs/memblaze-pblaze5-c916-6-4-tb.d1590
+Memblaze PBlaze5 D510,1.9 TB 3.8 TB,TLC,U.2,PCIe 3.0 x4,Unknown,PM8632A1-F3EI,Yes,https://www.techpowerup.com/ssd-specs/memblaze-pblaze5-d510-1-9-tb.d1830
+Memblaze PBlaze6 6530,1.9 TB 3.8 TB 7.5 TB,TLC,U.2,PCIe 4.0 x4,2021,NVMe3108,Yes,https://www.techpowerup.com/ssd-specs/memblaze-pblaze6-6530-1-9-tb.d2007
+Memblaze PBlaze7 7940,3.8 TB 7.5 TB 15 TB 31 TB,TLC,U.2,PCIe 5.0 x4,2023,Bravera,Yes,https://www.techpowerup.com/ssd-specs/memblaze-pblaze7-7940-3-8-tb.d1592
+Memblaze PBlaze7 7A40,3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 5.0 x4,2024,Zhenyue 510,Yes,https://www.techpowerup.com/ssd-specs/memblaze-pblaze7-7a40-3-8-tb.d2187
+Meta Quest Pro Embedded SSD,256 GB,TLC,Embedded,Unknown,2022,Unknown,No,https://www.techpowerup.com/ssd-specs/meta-quest-pro-embedded-ssd-256-gb.d2180
+MiWhole CT100,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,Unknown,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/miwhole-ct100-1-tb.d1501
+MiWhole CT200,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/miwhole-ct200-1-tb.d1504
+MiWhole CT300,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/miwhole-ct300-1-tb.d1421
+Micron 2400,512 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2022,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/micron-2400-1-tb.d803
+Micron 2400,512 GB 1 TB 2 TB,QLC,M.2 2242,PCIe 4.0 x4,2022,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/micron-2400-1-tb.d806
+Micron 2400,512 GB 1 TB 2 TB,QLC,M.2 2230,PCIe 4.0 x4,2022,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/micron-2400-1-tb.d809
+Micron 2550,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/micron-2550-1-tb.d1280
+Micron 2650,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/micron-2650-1-tb.d2133
+Micron 3500,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E25,Yes,https://www.techpowerup.com/ssd-specs/micron-3500-1-tb.d1798
+Micron 5200 Max,240 GB 480 GB 960 GB 1.9 TB,TLC,2.5,SATA 6 Gbps,2018,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/micron-5200-max-960-gb.d1840
+Micron 5210 ION,960 GB 1.9 TB 3.8 TB 7.5 TB,QLC,2.5,SATA 6 Gbps,2018,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/micron-5210-ion-960-gb.d1348
+Micron 5300 Pro,240 GB 480 GB 960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,2.5,SATA 6 Gbps,2019,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/micron-5300-pro-960-gb.d2192
+Micron 5300 Pro,240 GB 480 GB,TLC,M.2 2280,SATA 6 Gbps,2019,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/micron-5300-pro-480-gb.d2197
+Micron 6550 ION,31 TB 61 TB,TLC,U.2,PCIe 5.0 x4,2024,Unknown,Yes,https://www.techpowerup.com/ssd-specs/micron-6550-ion-31-tb.d2243
+Micron 7400 Pro,960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,U.3,PCIe 4.0 x4,2021,9AC01,Yes,https://www.techpowerup.com/ssd-specs/micron-7400-pro-960-gb.d2230
+Micron 7450 Pro,15 TB,TLC,U.3,PCIe 4.0 x4,2022,9AC06,Yes,https://www.techpowerup.com/ssd-specs/micron-7450-pro-15-tb.d1869
+Micron 9100 Max,1.2 TB 2.3 TB,MLC,U.2,PCIe 3.0 x4,2017,89HF16P04CG3,Yes,https://www.techpowerup.com/ssd-specs/micron-9100-max-1-2-tb.d1825
+Micron 9100 Max,1.2 TB 2.3 TB,MLC,Add-In Card,PCIe 3.0 x4,2017,89HF16P04CG3,Yes,https://www.techpowerup.com/ssd-specs/micron-9100-max-1-2-tb.d1823
+Micron 9100 Pro,800 GB 1.6 TB 3 TB,MLC,U.2,PCIe 3.0 x4,2017,89HF16P04CG3,Yes,https://www.techpowerup.com/ssd-specs/micron-9100-pro-800-gb.d1826
+Micron 9300 Pro,3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 3.0 x4,2019,PM8607,Yes,https://www.techpowerup.com/ssd-specs/micron-9300-pro-3-8-tb.d1286
+Micron 9400 Max,13 TB 26 TB,TLC,U.3,PCIe 4.0 x4,2023,NVMe 3016,Yes,https://www.techpowerup.com/ssd-specs/micron-9400-max-13-tb.d1498
+Micron 9400 Pro,7.5 TB 15 TB 31 TB,TLC,U.3,PCIe 4.0 x4,2023,NVMe 3016,Yes,https://www.techpowerup.com/ssd-specs/micron-9400-pro-7-5-tb.d1320
+Micron 9550 Pro,3.8 TB 7.5 TB 15 TB 31 TB,TLC,U.2,PCIe 5.0 x4,2024,Unknown,Yes,https://www.techpowerup.com/ssd-specs/micron-9550-pro-3-8-tb.d2129
+Micron M600,128 GB 256 GB 512 GB 1 TB,MLC,2.5,SATA 6 Gbps,2014,88SS9189,Yes,https://www.techpowerup.com/ssd-specs/micron-m600-1-tb.d1569
+Microsoft Z1000,960 GB,TLC,M.2 22110,PCIe 4.0 x4,2020,CNX-2670AA,Yes,https://www.techpowerup.com/ssd-specs/microsoft-z1000-960-gb.d1948
+Movespeed SSD (YMTC CDT2A X3-9060),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/movespeed-ssd-1-tb.d1933
+Movespeed SSD (YMTC EET1A X3-9070),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/movespeed-ssd-1-tb.d1574
+Movespeed SSD N3000 (88SS1100 + TLC),512 GB,TLC,M.2 2280,PCIe 3.0 x4,Unknown,88SS1100,Yes,https://www.techpowerup.com/ssd-specs/movespeed-ssd-n3000-512-gb.d2201
+Mushkin ALPHA,4 TB 8 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/mushkin-alpha-4-tb.d765
+Mushkin Delta,1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/mushkin-delta-1-tb.d769
+Mushkin Gamma,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/mushkin-gamma-1-tb.d768
+Mushkin Helix-L,1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/mushkin-helix-l-1-tb.d776
+Mushkin Pilot-E,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/mushkin-pilot-e-1-tb.d773
+Mushkin Redline Vortex,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/mushkin-redline-vortex-1-tb.d740
+Netac N930e Pro (SM2263XT + SK Hynix V6),128 GB 256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/netac-n930e-pro-1-tb.d1171
+Netac N950e Pro,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/netac-n950e-pro-1-tb.d737
+Netac NV3000 (MAP1202 + SK Hynix V7),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/netac-nv3000-1-tb.d1677
+Netac NV3000 (RTS5766DL + YMTC CDT1B),250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,RTS5766DL,HMB,https://www.techpowerup.com/ssd-specs/netac-nv3000-1-tb.d746
+Netac NV3000 RGB,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/netac-nv3000-rgb-1-tb.d750
+Netac NV5000 (Kioxia BiCS4),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/netac-nv5000-1-tb.d1019
+Netac NV5000 (Kioxia BiCS5),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/netac-nv5000-1-tb.d733
+Netac NV5000 (TenaFe TC2200 + YMTC CDT1B),500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,TC2200,HMB,https://www.techpowerup.com/ssd-specs/netac-nv5000-1-tb.d1727
+Netac NV5000-N,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,TC2200,HMB,https://www.techpowerup.com/ssd-specs/netac-nv5000-n-1-tb.d1170
+Netac NV5000-T,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,TC2200,HMB,https://www.techpowerup.com/ssd-specs/netac-nv5000-t-1-tb.d1065
+Netac NV7000 (E18 + B47R),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/netac-nv7000-1-tb.d731
+Netac NV7000 (IG5236 + Micron B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/netac-nv7000-1-tb.d1039
+Netac NV7000 (IG5236 + SK Hynix),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/netac-nv7000-1-tb.d896
+Netac NV7000 (IG5236 + YMTC CDT1B),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/netac-nv7000-1-tb.d894
+Netac NV7000-T,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/netac-nv7000-t-1-tb.d1510
+Netac ZX20,1 TB,TLC,Unknown,Unknown,2022,SM2320G,No,https://www.techpowerup.com/ssd-specs/netac-zx20-1-tb.d1725
+Nextorage G Series,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/nextorage-g-series-1-tb.d1940
+Nextorage G Series (Kioxia BiCS5 HDR 1Tb),8 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/nextorage-g-series-8-tb.d1941
+Nextorage Gen5 SSD,1 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/nextorage-gen5-ssd-1-tb.d1270
+Nextorage NE5N Series,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/nextorage-ne5n-series-1-tb.d1470
+Nextorage NE5N Series (w/ Heatsink),1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/nextorage-ne5n-series-w-heatsink-1-tb.d1473
+OCZ ARC 100,120 GB 240 GB 480 GB,MLC,2.5,SATA 6 Gbps,2014,Barefoot 3 M10,Yes,https://www.techpowerup.com/ssd-specs/ocz-arc-100-480-gb.d1812
+OCZ Vertex 450,128 GB 256 GB 512 GB,MLC,2.5,SATA 6 Gbps,2013,Barefoot 3 M10,Yes,https://www.techpowerup.com/ssd-specs/ocz-vertex-450-512-gb.d1814
+OCZ Vertex 460,120 GB 240 GB 480 GB,MLC,2.5,SATA 6 Gbps,2014,Barefoot 3 M10,Yes,https://www.techpowerup.com/ssd-specs/ocz-vertex-460-480-gb.d1298
+Orico J-10,512 GB 1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 3.0 x4,Unknown,RTS5765DL,HMB,https://www.techpowerup.com/ssd-specs/orico-j-10-1-tb.d2039
+Orico J-20,512 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2023,RTS5772DL,HMB,https://www.techpowerup.com/ssd-specs/orico-j-20-1-tb.d2043
+Orico O7000 (YMTC QLC X3-6070),2 TB,QLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/orico-o7000-2-tb.d2200
+Orico O7000 (YMTC TLC EET1A X3-9070),512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/orico-o7000-1-tb.d2154
+PNY CS2142,1 TB 2 TB,QLC,M.2 2230,PCIe 4.0 x4,2024,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/pny-cs2142-1-tb.d1973
+PNY CS2150,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E31T,HMB,https://www.techpowerup.com/ssd-specs/pny-cs2150-1-tb.d2263
+PNY CS3150 XLR8 (w/ heatsink),1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/pny-cs3150-xlr8-w-heatsink-1-tb.d1794
+PNY CS900 (Micron B16A),120 GB 240 GB 250 GB,TLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/pny-cs900-250-gb.d671
+PNY CS900 (Micron B17A),480 GB 500 GB 960 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/pny-cs900-1-tb.d667
+PNY CS900 (Micron N18A),4 TB 8 TB,QLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/pny-cs900-4-tb.d665
+PNY CS900 (SM2259XT2 + SK Hynix V6),240 GB,TLC,2.5,SATA 6 Gbps,2018,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/pny-cs900-240-gb.d1845
+PNY LX3030,1 TB 2 TB,pSLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/pny-lx3030-1-tb.d790
+PNY XLR8 CS3030,250 GB 500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/pny-xlr8-cs3030-1-tb.d660
+PNY XLR8 CS3040,500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/pny-xlr8-cs3040-1-tb.d744
+PNY XLR8 CS3140 (Phison E18 + Kioxia BiCS5 TLC 1Tb),8 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/pny-xlr8-cs3140-8-tb.d2251
+PNY XLR8 CS3140 (Phison E18 + Micron B27B),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/pny-xlr8-cs3140-1-tb.d651
+PNY XLR8 CS3140 (Phison E18 + Micron B47R),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/pny-xlr8-cs3140-1-tb.d2253
+PNY XLR8 CS3140 (w/ Heatsink),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/pny-xlr8-cs3140-w-heatsink-1-tb.d657
+Patriot Burst,120 GB 240 GB 480 GB 960 GB,TLC,2.5,SATA 6 Gbps,2018,Phison S11,No,https://www.techpowerup.com/ssd-specs/patriot-burst-960-gb.d643
+Patriot Burst Elite (MAS1102B + YMTC CEC1A),1.9 TB,QLC,2.5,SATA 6 Gbps,2020,MAS1102B-B1C,No,https://www.techpowerup.com/ssd-specs/patriot-burst-elite-1-9-tb.d1851
+Patriot Burst Elite (Realtek RTS5766DL + Kioxia BiCS5),120 GB 240 GB 480 GB,TLC,2.5,SATA 6 Gbps,2020,RTS5766DL,No,https://www.techpowerup.com/ssd-specs/patriot-burst-elite-480-gb.d1848
+Patriot Burst Elite (SM2259XT + Micron N18A),960 GB 1.9 TB,QLC,2.5,SATA 6 Gbps,2020,SM2259XT,No,https://www.techpowerup.com/ssd-specs/patriot-burst-elite-960-gb.d1847
+Patriot P200 (MAS0902),2 TB,TLC,2.5,SATA 6 Gbps,2019,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/patriot-p200-2-tb.d638
+Patriot P200 (SM2258XT),128 GB 256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2019,SM2258XT,No,https://www.techpowerup.com/ssd-specs/patriot-p200-1-tb.d639
+Patriot P300 (Phison E13),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E13,HMB,https://www.techpowerup.com/ssd-specs/patriot-p300-1-tb.d634
+Patriot P300 (SM2263XT),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,Unknown,Phison E13,HMB,https://www.techpowerup.com/ssd-specs/patriot-p300-1-tb.d1025
+Patriot Viper VP4100,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/patriot-viper-vp4100-1-tb.d623
+Patriot Viper VP4300 (IG5236 + B27B),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/patriot-viper-vp4300-1-tb.d621
+Patriot Viper VP4300 (IG5236 + B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/patriot-viper-vp4300-1-tb.d902
+Patriot Viper VP4300 Lite (MAP1602 + YMTC 1T b QLC X3-6070),4 TB,QLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/patriot-viper-vp4300-lite-4-tb.d1581
+Patriot Viper VP4300 Lite (MAP1602 + YMTC 1T b TLC EET1A),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/patriot-viper-vp4300-lite-1-tb.d1579
+Patriot Viper VP4300 Lite (Phison E27T + Kioxia BiCS6 TLC 1Tb),2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/patriot-viper-vp4300-lite-2-tb.d2179
+Patriot Viper VPN100 (E12 + BiCS3),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/patriot-viper-vpn100-1-tb.d1027
+Patriot Viper VPN100 (E12S + Micron B27A),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/patriot-viper-vpn100-1-tb.d627
+Patriot Viper VPR100,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/patriot-viper-vpr100-1-tb.d630
+Patriot Viper VPR400,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5220,HMB,https://www.techpowerup.com/ssd-specs/patriot-viper-vpr400-1-tb.d904
+Phison E26 Engineering Sample,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2022,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/phison-e26-engineering-sample-2-tb.d832
+Phison E26 Max14um Reference Design,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/phison-e26-max14um-reference-design-2-tb.d1878
+Phison E28 Engineering Sample,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E28,Yes,https://www.techpowerup.com/ssd-specs/phison-e28-engineering-sample-2-tb.d2277
+Phison E31T Engineering Sample,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E31T,HMB,https://www.techpowerup.com/ssd-specs/phison-e31t-engineering-sample-2-tb.d2056
+Phison IO+ (Engineering Sample),2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/phison-io-engineering-sample-2-tb.d853
+Phison Pascari X200E,1.6 TB 3 TB 6 TB 13 TB 26 TB,TLC,U.2,PCIe 5.0 x4,2024,Phison X2,Yes,https://www.techpowerup.com/ssd-specs/phison-pascari-x200e-1-6-tb.d2017
+Phison Pascari X200P,1.9 TB 3.8 TB 7.5 TB 15 TB 31 TB,TLC,U.2,PCIe 5.0 x4,2024,Phison X2,Yes,https://www.techpowerup.com/ssd-specs/phison-pascari-x200p-1-9-tb.d2008
+Pichau Aldrin A1,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5220,HMB,https://www.techpowerup.com/ssd-specs/pichau-aldrin-a1-1-tb.d1525
+Pichau Aldrin LP,1 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/pichau-aldrin-lp-1-tb.d2259
+Pichau Aldrin Pro,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,IG5236,Yes,https://www.techpowerup.com/ssd-specs/pichau-aldrin-pro-1-tb.d1765
+Pichau Celestia (IG5220 + Micron B47R),512 GB,TLC,M.2 2230,PCIe 4.0 x4,2023,IG5220,HMB,https://www.techpowerup.com/ssd-specs/pichau-celestia-512-gb.d1970
+Pichau Celestia (MAP1602 + YMTC CDT1B),1 TB,TLC,M.2 2230,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/pichau-celestia-1-tb.d1969
+Pichau Kepler Z1,512 GB 1 TB,QLC,M.2 2280,PCIe 3.0 x4,2023,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/pichau-kepler-z1-1-tb.d2117
+Plextor M10P(G),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/plextor-m10p-g-1-tb.d677
+Plextor M10P(GN),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/plextor-m10p-gn-1-tb.d682
+Plextor M10P(Y),512 GB 1 TB 2 TB,TLC,Add-In Card,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/plextor-m10p-y-1-tb.d679
+Plextor M10e,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,SM2267XT,HMB,https://www.techpowerup.com/ssd-specs/plextor-m10e-1-tb.d684
+Plextor M9P(G) Plus,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,88SS1092,Yes,https://www.techpowerup.com/ssd-specs/plextor-m9p-g-plus-1-tb.d687
+Plextor M9Pe(G),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,88SS1093,Yes,https://www.techpowerup.com/ssd-specs/plextor-m9pe-g-1-tb.d693
+Plextor M9Pe(GN),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,88SS1093,Yes,https://www.techpowerup.com/ssd-specs/plextor-m9pe-gn-1-tb.d696
+Plextor M9Pe(Y),256 GB 512 GB 1 TB,TLC,Add-In Card,PCIe 3.0 x4,2018,88SS1093,Yes,https://www.techpowerup.com/ssd-specs/plextor-m9pe-y-1-tb.d690
+RZX Pro (SM2259XT2 + Kioxia BiCS4),240 GB,TLC,2.5,SATA 6 Gbps,2022,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/rzx-pro-240-gb.d1838
+Ramaxel TP6500,3.8 TB,TLC,U.2,PCIe 4.0 x4,2022,Phoenix 8020,Yes,https://www.techpowerup.com/ssd-specs/ramaxel-tp6500-3-8-tb.d1795
+Redragon Blade,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/redragon-blade-1-tb.d1513
+Reletech P400 (YMTC BCT1B),256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-512-gb.d1051
+Reletech P400 (YMTC CDT1B),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-1-tb.d1048
+Reletech P400 EVO (E18 + Micron B27B),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-evo-1-tb.d838
+Reletech P400 EVO (IG5236 + YMTC 128-L),500 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-evo-1-tb.d1324
+Reletech P400 EVO (MAP1602 + YMTC 232-L),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/reletech-p400-evo-1-tb.d1517
+Reletech P400 EVO (PS5) (E18 + Micron B27B),1 TB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-evo-ps5-1-tb.d842
+Reletech P400 EVO (PS5) (IG5236 + YMTC 128-L),500 GB 1 TB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-evo-ps5-1-tb.d1326
+Reletech P400 Pro (QLC) (Micron N28A),1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-pro-qlc-1-tb.d843
+Reletech P400 Pro (TLC) (Kioxia BiCS4),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/reletech-p400-pro-tlc-1-tb.d846
+Reletech P600,1 TB,TLC,M.2 2280,PCIe 3.0 x4,Unknown,Phison E15,HMB,https://www.techpowerup.com/ssd-specs/reletech-p600-1-tb.d1577
+SSSTC Lite-On SVZ SSD,128 GB,MLC,M.2 2280,SATA 6 Gbps,2018,SM2258H,Yes,https://www.techpowerup.com/ssd-specs/ssstc-lite-on-svz-ssd-128-gb.d2273
+SSTC HammerHead E18,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sstc-hammerhead-e18-1-tb.d1403
+SSTC Tiger Shark,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/sstc-tiger-shark-1-tb.d1409
+Sabrent Nano,1 TB,TLC,M.2 2242,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/sabrent-nano-1-tb.d2001
+Sabrent Rocket (Phison E12S + Kioxia BiCS4),2 TB 4 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-2-tb.d1821
+Sabrent Rocket (Phison E12S + Micron B27A),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-1-tb.d1819
+Sabrent Rocket 4,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-1-tb.d1976
+Sabrent Rocket 4 Plus (Kioxia BiCS5),8 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-plus-8-tb.d543
+Sabrent Rocket 4 Plus (Micron B27B),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-plus-1-tb.d544
+Sabrent Rocket 4 Plus (Micron B47R),500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-plus-1-tb.d1013
+Sabrent Rocket 4 Plus G,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-plus-g-1-tb.d854
+Sabrent Rocket 4 Plus-Destroyer 2.0,64 TB,TLC,M.2 2280,PCIe 4.0 x16,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-plus-destroyer-2-0-64-tb.d906
+Sabrent Rocket 4.0,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-0-1-tb.d548
+Sabrent Rocket 4.0 (w/ Heatsink),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-4-0-w-heatsink-1-tb.d551
+Sabrent Rocket 5,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-5-1-tb.d1932
+Sabrent Rocket NVMe PCIe M.2 2230,256 GB 512 GB 1 TB,TLC,M.2 2230,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/sabrent-rocket-nvme-pcie-m-2-2230-1-tb.d1276
+Sabrent Rocket Q,500 GB 1 TB 2 TB 4 TB 8 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-q-1-tb.d556
+Sabrent Rocket Q4,1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-q4-1-tb.d560
+Sabrent Rocket Q4 (w/ Heatsink),1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-q4-w-heatsink-1-tb.d561
+Sabrent Rocket Q4 2230,2 TB,QLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/sabrent-rocket-q4-2230-2-tb.d1486
+Sabrent Rocket X5 Gen 5,1 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/sabrent-rocket-x5-gen-5-1-tb.d1410
+Samsung 470 Series,256 GB,MLC,2.5,SATA 3 Gbps,2009,Samsung S3C2400,Yes,https://www.techpowerup.com/ssd-specs/samsung-470-series-256-gb.d1260
+Samsung 750 EVO,120 GB 250 GB 500 GB,MLC,2.5,SATA 6 Gbps,2016,Samsung MGX,Yes,https://www.techpowerup.com/ssd-specs/samsung-750-evo-500-gb.d1228
+Samsung 830,64 GB 128 GB 256 GB 512 GB,MLC,2.5,SATA 6 Gbps,2011,MCX,Yes,https://www.techpowerup.com/ssd-specs/samsung-830-512-gb.d1224
+Samsung 840 EVO,120 GB 250 GB 500 GB 750 GB 1 TB,TLC,2.5,SATA 6 Gbps,2013,Samsung MEX,Yes,https://www.techpowerup.com/ssd-specs/samsung-840-evo-1-tb.d42
+Samsung 840 Pro,128 GB 256 GB 512 GB,MLC,2.5,SATA 6 Gbps,2012,Samsung MDX,Yes,https://www.techpowerup.com/ssd-specs/samsung-840-pro-512-gb.d36
+Samsung 845DC Pro,400 GB 800 GB,MLC,2.5,SATA 6 Gbps,2014,Samsung MDX,Yes,https://www.techpowerup.com/ssd-specs/samsung-845dc-pro-800-gb.d1757
+Samsung 850 EVO (Samsung V2),120 GB 250 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2014,Samsung MEX,Yes,https://www.techpowerup.com/ssd-specs/samsung-850-evo-1-tb.d31
+Samsung 850 EVO (Samsung V3),4 TB,TLC,2.5,SATA 6 Gbps,2014,Samsung MHX,Yes,https://www.techpowerup.com/ssd-specs/samsung-850-evo-4-tb.d33
+Samsung 850 PRO,128 GB 256 GB 512 GB 1 TB 2 TB,pMLC,2.5,SATA 6 Gbps,2014,Samsung MEX,Yes,https://www.techpowerup.com/ssd-specs/samsung-850-pro-1-tb.d26
+Samsung 860 EVO,250 GB 500 GB 1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,2018,Samsung MJX Maru,Yes,https://www.techpowerup.com/ssd-specs/samsung-860-evo-1-tb.d8
+Samsung 860 PRO,256 GB 512 GB 1 TB 2 TB 4 TB,MLC,2.5,SATA 6 Gbps,2018,Samsung MJX Maru,Yes,https://www.techpowerup.com/ssd-specs/samsung-860-pro-1-tb.d13
+Samsung 860 QVO,1 TB 2 TB 4 TB,QLC,2.5,SATA 6 Gbps,2018,Samsung MJX Maru,Yes,https://www.techpowerup.com/ssd-specs/samsung-860-qvo-1-tb.d20
+Samsung 870 EVO (V-NAND V6 256Gb),250 GB,TLC,2.5,SATA 6 Gbps,2021,Samsung MKX Metis,Yes,https://www.techpowerup.com/ssd-specs/samsung-870-evo-250-gb.d1
+Samsung 870 EVO (V-NAND V6 512Gb),500 GB 1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,2021,Samsung MKX Metis,Yes,https://www.techpowerup.com/ssd-specs/samsung-870-evo-1-tb.d3
+Samsung 870 EVO (V-NAND V6 Prime 512Gb),1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,2023,Samsung MKX Metis,Yes,https://www.techpowerup.com/ssd-specs/samsung-870-evo-1-tb.d1903
+Samsung 870 QVO,1 TB 2 TB 4 TB 8 TB,QLC,2.5,SATA 6 Gbps,2020,Samsung MKX Metis,Yes,https://www.techpowerup.com/ssd-specs/samsung-870-qvo-1-tb.d16
+Samsung 883 DCT,240 GB 480 GB 960 GB 1.9 TB 3.8 TB,TLC,2.5,SATA 6 Gbps,2018,Samsung MJX Maru,Yes,https://www.techpowerup.com/ssd-specs/samsung-883-dct-960-gb.d1266
+Samsung 950 PRO,256 GB 512 GB,MLC,M.2 2280,PCIe 3.0 x4,2015,Samsung UBX,Yes,https://www.techpowerup.com/ssd-specs/samsung-950-pro-512-gb.d74
+Samsung 960 EVO,250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2016,Samsung Polaris,Yes,https://www.techpowerup.com/ssd-specs/samsung-960-evo-1-tb.d72
+Samsung 960 PRO,512 GB 1 TB 2 TB,MLC,M.2 2280,PCIe 3.0 x4,2016,Samsung Polaris,Yes,https://www.techpowerup.com/ssd-specs/samsung-960-pro-1-tb.d68
+Samsung 970 EVO,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-970-evo-1-tb.d65
+Samsung 970 EVO Plus (Elpis + V6),250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,Samsung Elpis,Yes,https://www.techpowerup.com/ssd-specs/samsung-970-evo-plus-1-tb.d993
+Samsung 970 EVO Plus (Phoenix + V5),250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-970-evo-plus-1-tb.d61
+Samsung 970 PRO,512 GB 1 TB,MLC,M.2 2280,PCIe 3.0 x4,2018,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-970-pro-1-tb.d55
+Samsung 980 (V-NAND V6 512Gb),250 GB 500 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Samsung Pablo,HMB,https://www.techpowerup.com/ssd-specs/samsung-980-1-tb.d58
+Samsung 980 (V-NAND V6P 512Gb),500 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2023,Samsung Pablo,HMB,https://www.techpowerup.com/ssd-specs/samsung-980-1-tb.d1916
+Samsung 980 PRO,250 GB 500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Samsung Elpis,Yes,https://www.techpowerup.com/ssd-specs/samsung-980-pro-1-tb.d47
+Samsung 980 PRO (PS5),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Samsung Elpis,Yes,https://www.techpowerup.com/ssd-specs/samsung-980-pro-ps5-1-tb.d675
+Samsung 983 DCT,960 GB 960 GB,TLC,M.2 22110,PCIe 3.0 x4,2018,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-983-dct-960-gb.d1877
+Samsung 983 ZET,480 GB 960 GB,SLC,Add-In Card,PCIe 3.0 x4,2018,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-983-zet-960-gb.d1253
+Samsung 990 Evo,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Samsung Piccolo,HMB,https://www.techpowerup.com/ssd-specs/samsung-990-evo-1-tb.d1868
+Samsung 990 Evo Plus,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x2,2024,Samsung Piccolo,HMB,https://www.techpowerup.com/ssd-specs/samsung-990-evo-plus-1-tb.d2207
+Samsung 990 Pro (Pascal + V7),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Samsung Pascal,Yes,https://www.techpowerup.com/ssd-specs/samsung-990-pro-1-tb.d861
+Samsung 990 Pro (Pascal + V8 1Tb),2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Samsung Pascal,Yes,https://www.techpowerup.com/ssd-specs/samsung-990-pro-2-tb.d1896
+Samsung 990 Pro (Pascal + V8 512Gb),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Samsung Pascal,Yes,https://www.techpowerup.com/ssd-specs/samsung-990-pro-1-tb.d1897
+Samsung 990 Pro (w/ Heatsink) (Pascal + V7),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Samsung Pascal,Yes,https://www.techpowerup.com/ssd-specs/samsung-990-pro-w-heatsink-1-tb.d864
+Samsung 990 Pro (w/ Heatsink) (Pascal + V8 1Tb),2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Samsung Pascal,Yes,https://www.techpowerup.com/ssd-specs/samsung-990-pro-w-heatsink-2-tb.d1898
+Samsung 990 Pro (w/ Heatsink) (Pascal + V8 512Gb),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Samsung Pascal,Yes,https://www.techpowerup.com/ssd-specs/samsung-990-pro-w-heatsink-1-tb.d1899
+Samsung 990 QVO,4 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,Samsung PiccoloQ,HMB,https://www.techpowerup.com/ssd-specs/samsung-990-qvo-4-tb.d1980
+Samsung BM1743,61 TB,QLC,U.2,PCIe 5.0 x4,2024,Samsung ELAN,Yes,https://www.techpowerup.com/ssd-specs/samsung-bm1743-61-tb.d2119
+Samsung PM1653,960 GB 1.9 TB 3.8 TB 7.5 TB 15 TB 31 TB,TLC,2.5,SAS 24 Gbps,2022,Samsung RGX,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm1653-960-gb.d1786
+Samsung PM1725A,1.6 TB 3 TB 6 TB,MLC,Add-In Card,PCIe 3.0 x8,2018,EPIC,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm1725a-1-6-tb.d1699
+Samsung PM1743,1.9 TB 3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 5.0 x4,2022,Samsung ELAN,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm1743-1-9-tb.d1684
+Samsung PM883,240 GB 480 GB 960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,2.5,SATA 6 Gbps,2018,Samsung MJX Maru,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm883-960-gb.d1622
+Samsung PM893,240 GB 480 GB 960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,2.5,SATA 6 Gbps,2022,Samsung MKX Metis,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm893-960-gb.d1864
+Samsung PM897,3.8 TB,TLC,2.5,SATA 6 Gbps,2021,Samsung MKX Metis,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm897-3-8-tb.d1456
+Samsung PM961,128 GB 256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2017,Samsung Polaris,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm961-1-tb.d1200
+Samsung PM963,960 GB 1.9 TB 3.8 TB,TLC,M.2 22110,PCIe 3.0 x4,2016,Samsung Polaris,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm963-960-gb.d1367
+Samsung PM981,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2017,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm981-1-tb.d1220
+Samsung PM981a,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Samsung Phoenix,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm981a-1-tb.d782
+Samsung PM9A1,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Samsung Elpis,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm9a1-1-tb.d786
+Samsung PM9A3,960 GB 1.9 TB 3.8 TB 7.5 TB,TLC,U.3,PCIe 4.0 x4,2021,Samsung Elpis,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm9a3-960-gb.d1259
+Samsung PM9A3,3.8 TB,TLC,M.2 22110,PCIe 4.0 x4,2021,Samsung Elpis,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm9a3-3-8-tb.d1722
+Samsung PM9B1,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,88SS1322,HMB,https://www.techpowerup.com/ssd-specs/samsung-pm9b1-1-tb.d2265
+Samsung PM9C1a,1 TB,TLC,M.2 2230,PCIe 4.0 x4,2023,Samsung Piccolo,HMB,https://www.techpowerup.com/ssd-specs/samsung-pm9c1a-1-tb.d1801
+Samsung PM9E1,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,Samsung Preto,Yes,https://www.techpowerup.com/ssd-specs/samsung-pm9e1-1-tb.d1983
+Samsung SM883,240 GB 480 GB 960 GB 1.9 TB 3.8 TB,MLC,2.5,SATA 6 Gbps,2018,Samsung MJX Maru,Yes,https://www.techpowerup.com/ssd-specs/samsung-sm883-960-gb.d1451
+Samsung SM961,128 GB 256 GB 512 GB 1 TB,MLC,M.2 2280,PCIe 3.0 x4,2016,Samsung Polaris,Yes,https://www.techpowerup.com/ssd-specs/samsung-sm961-1-tb.d1213
+Samsung SZ1735,800 GB 1.6 TB 3 TB,SLC,U.2,PCIe 3.0 x4,2021,Samsung Eagle,Yes,https://www.techpowerup.com/ssd-specs/samsung-sz1735-800-gb.d2275
+SanDisk Extreme Pro,512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,WD 20-82-007011,Yes,https://www.techpowerup.com/ssd-specs/sandisk-extreme-pro-1-tb.d702
+SanDisk X110,64 GB 128 GB 256 GB,MLC,2.5,SATA 6 Gbps,2013,88SS9175,Yes,https://www.techpowerup.com/ssd-specs/sandisk-x110-256-gb.d2186
+SanDisk X400,512 GB 1 TB,TLC,2.5,SATA 6 Gbps,2016,88SS1074,Yes,https://www.techpowerup.com/ssd-specs/sandisk-x400-1-tb.d1585
+ScaleFlux CSD 5510,3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 5.0 x4,2024,FX5016,Yes,https://www.techpowerup.com/ssd-specs/scaleflux-csd-5510-3-8-tb.d2143
+ScaleFlux CSD 5520,3 TB 6 TB 13 TB,TLC,U.2,PCIe 5.0 x4,2024,FX5016,Yes,https://www.techpowerup.com/ssd-specs/scaleflux-csd-5520-3-tb.d2140
+Seagate BarraCuda,250 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2018,Phison S10,Yes,https://www.techpowerup.com/ssd-specs/seagate-barracuda-1-tb.d239
+Seagate BarraCuda 120,250 GB 500 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2019,Phison S12,Yes,https://www.techpowerup.com/ssd-specs/seagate-barracuda-120-1-tb.d198
+Seagate BarraCuda 510,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/seagate-barracuda-510-1-tb.d49
+Seagate BarraCuda Q5,500 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,Phison E13,Yes,https://www.techpowerup.com/ssd-specs/seagate-barracuda-q5-1-tb.d222
+Seagate Barracuda 530,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/seagate-barracuda-530-1-tb.d1978
+Seagate Beskar Ingot Drive Special Edition,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/seagate-beskar-ingot-drive-special-edition-1-tb.d1068
+Seagate FireCuda 120,500 GB 1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,2019,Phison S12,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-120-1-tb.d218
+Seagate FireCuda 510,500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-510-1-tb.d187
+Seagate FireCuda 520 (E16 + Kioxia BiCS4),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-520-1-tb.d190
+Seagate FireCuda 520 (E16 + Unknown),500 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-520-1-tb.d1414
+Seagate FireCuda 530,500 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-530-1-tb.d193
+Seagate Firecuda 530R,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-530r-1-tb.d2212
+Seagate Firecuda 530R (w/ heatsink),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-530r-w-heatsink-1-tb.d2211
+Seagate Firecuda 540,1 TB 2 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/seagate-firecuda-540-1-tb.d1533
+Seagate Game Drive PS5 NVMe,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/seagate-game-drive-ps5-nvme-1-tb.d1702
+Seagate IronWolf 110,240 GB 480 GB 960 GB 1.9 TB 3.8 TB,TLC,2.5,SATA 6 Gbps,2019,Seagate 500021768,Yes,https://www.techpowerup.com/ssd-specs/seagate-ironwolf-110-960-gb.d203
+Seagate IronWolf 125,250 GB 500 GB 1 TB 2 TB 4 TB,TLC,2.5,SATA 6 Gbps,2018,Phison S12,Yes,https://www.techpowerup.com/ssd-specs/seagate-ironwolf-125-1-tb.d208
+Seagate IronWolf 510,240 GB 480 GB 960 GB 1.9 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12DC,Yes,https://www.techpowerup.com/ssd-specs/seagate-ironwolf-510-960-gb.d243
+Seagate IronWolf Pro 125,240 GB 480 GB 960 GB 1.9 TB 3.8 TB,TLC,2.5,SATA 6 Gbps,2019,Phison S12,Yes,https://www.techpowerup.com/ssd-specs/seagate-ironwolf-pro-125-960-gb.d214
+Seagate Lightsaber Collection Special Edition,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/seagate-lightsaber-collection-special-edition-1-tb.d1443
+Seagate Nytro 5350H,1.9 TB 3.8 TB 7.5 TB,TLC,U.3,PCIe 4.0 x4,2022,Phison X1 (E20),Yes,https://www.techpowerup.com/ssd-specs/seagate-nytro-5350h-1-9-tb.d2122
+Seagate Nytro 5550H,800 GB 1.6 TB 3 TB 6 TB 13 TB,TLC,U.2,PCIe 4.0 x4,2022,Phison X1 (E20),Yes,https://www.techpowerup.com/ssd-specs/seagate-nytro-5550h-800-gb.d1602
+Solidigm 670p,512 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,SM2265,Yes,https://www.techpowerup.com/ssd-specs/solidigm-670p-1-tb.d822
+Solidigm D5-P5336,7.5 TB 61 TB,pQLC,U.2,PCIe 4.0 x4,2023,SLNQG,Yes,https://www.techpowerup.com/ssd-specs/solidigm-d5-p5336-7-5-tb.d1566
+Solidigm D7-P5430,15 TB 31 TB,pQLC,U.2,PCIe 4.0 x4,2023,Unknown,Yes,https://www.techpowerup.com/ssd-specs/solidigm-d7-p5430-15-tb.d1675
+Solidigm D7-P5510,7.5 TB,pTLC,U.2,PCIe 4.0 x4,2020,SLNBX,Yes,https://www.techpowerup.com/ssd-specs/solidigm-d7-p5510-7-5-tb.d1331
+Solidigm D7-P5810,800 GB,pSLC,U.2,PCIe 4.0 x4,2023,SLNBX,Yes,https://www.techpowerup.com/ssd-specs/solidigm-d7-p5810-800-gb.d1674
+Solidigm D7-PS1010,1.9 TB 3.8 TB 7.5 TB 15 TB,TLC,U.2,PCIe 5.0 x4,2024,Atomos Prime,Yes,https://www.techpowerup.com/ssd-specs/solidigm-d7-ps1010-1-9-tb.d2148
+Solidigm D7-PS1030,1.6 TB 3 TB 6 TB 13 TB,TLC,U.2,PCIe 5.0 x4,2024,Atomos Prime,Yes,https://www.techpowerup.com/ssd-specs/solidigm-d7-ps1030-1-6-tb.d2149
+Solidigm P41 Plus,512 GB 1 TB 2 TB,QLC,M.2 2280,PCIe 4.0 x4,2022,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/solidigm-p41-plus-1-tb.d858
+Solidigm P42 Plus,512 GB,pQLC,M.2 2280,PCIe 4.0 x4,Unknown,SM2268XT,Yes,https://www.techpowerup.com/ssd-specs/solidigm-p42-plus-512-gb.d1721
+Solidigm P44 Pro,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Aries,Yes,https://www.techpowerup.com/ssd-specs/solidigm-p44-pro-1-tb.d1124
+Sony Nextorage NEM-PA (PS5) (Kioxia HDR BiCS5 1Tb),8 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sony-nextorage-nem-pa-ps5-8-tb.d1936
+Sony Nextorage NEM-PA (PS5) (Micron B47R),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/sony-nextorage-nem-pa-ps5-1-tb.d728
+Sony Playstation 5,825 GB,TLC,Embedded,PCIe 4.0 x4,2020,Sony Titania II,Yes,https://www.techpowerup.com/ssd-specs/sony-playstation-5-825-gb.d751
+Sony Playstation 5 SLIM,1 TB,TLC,Embedded,PCIe 4.0 x4,2023,Unknown,Yes,https://www.techpowerup.com/ssd-specs/sony-playstation-5-slim-1-tb.d1773
+Synology SAT5200,480 GB 960 GB,TLC,M.2 2280,SATA 6 Gbps,2020,Phison S12DC,Yes,https://www.techpowerup.com/ssd-specs/synology-sat5200-960-gb.d1391
+TLET TLD-M7A,4 TB,TLC,M.2 2280,PCIe 4.0 x4,Unknown,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/tlet-tld-m7a-4-tb.d1507
+Teamgroup Cardea A440,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-a440-1-tb.d484
+Teamgroup Cardea A440 Lite,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E27T,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-a440-lite-1-tb.d2078
+Teamgroup Cardea A440 Pro,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-a440-pro-1-tb.d490
+Teamgroup Cardea A440 Pro (w/ Heatsink),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-a440-pro-w-heatsink-1-tb.d487
+Teamgroup Cardea A440 Pro Special Series,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-a440-pro-special-series-1-tb.d493
+Teamgroup Cardea Ceramic C440,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-ceramic-c440-1-tb.d495
+Teamgroup Cardea II,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-ii-1-tb.d480
+Teamgroup Cardea II TUF Gaming Alliance,1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-ii-tuf-gaming-alliance-1-tb.d849
+Teamgroup Cardea IOPS,1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-iops-1-tb.d496
+Teamgroup Cardea Liquid,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-liquid-1-tb.d497
+Teamgroup Cardea Z440 TUF Gaming Alliance,1 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-z440-tuf-gaming-alliance-1-tb.d848
+Teamgroup Cardea Z44L,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E19T,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-z44l-1-tb.d541
+Teamgroup Cardea Z44Q,2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-z44q-2-tb.d501
+Teamgroup Cardea Zero Z330,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-zero-z330-1-tb.d1206
+Teamgroup Cardea Zero Z440 (Kioxia BiCS4),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-zero-z440-1-tb.d503
+Teamgroup Cardea Zero Z440 (Kioxia BiCS5),1 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-cardea-zero-z440-1-tb.d1406
+Teamgroup EX2 Elite,512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2020,SM2258XT,No,https://www.techpowerup.com/ssd-specs/teamgroup-ex2-elite-1-tb.d531
+Teamgroup GX2,128 GB 256 GB 512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2019,SM2258XT,No,https://www.techpowerup.com/ssd-specs/teamgroup-gx2-1-tb.d1945
+Teamgroup L5 Lite 3D,120 GB 240 GB 480 GB 1 TB,TLC,2.5,SATA 6 Gbps,2017,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-l5-lite-3d-1-tb.d533
+Teamgroup MP33 (MAP1202 + BiCS5 HDR 1Tb),512 GB,TLC,M.2 2280,PCIe 3.0 x4,2022,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp33-512-gb.d1942
+Teamgroup MP33 (SM2263XT + B27B),128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,SM2263XT,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp33-1-tb.d1209
+Teamgroup MP34 (E12 + Kioxia BiCS3),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-mp34-1-tb.d1527
+Teamgroup MP34 (RTS5762 + SK Hynix V6),1 TB 4 TB,TLC,M.2 2280,PCIe 3.0 x4,2023,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-mp34-1-tb.d1531
+Teamgroup MP34Q (RTS5762 + QLC),4 TB,QLC,M.2 2280,PCIe 3.0 x4,2023,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-mp34q-4-tb.d1532
+Teamgroup MP44,512 GB 1 TB 2 TB 4 TB 8 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp44-1-tb.d1680
+Teamgroup MP44L (MAP1602 + CDT2A),2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp44l-2-tb.d1487
+Teamgroup MP44L (Phison E21T + B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp44l-1-tb.d1168
+Teamgroup MP44Q,1 TB 2 TB 4 TB,QLC,M.2 2280,PCIe 4.0 x4,2024,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp44q-1-tb.d1994
+Teamgroup MP44S,1 TB 2 TB,QLC,M.2 2230,PCIe 4.0 x4,2023,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-mp44s-1-tb.d1723
+Teamgroup QX,15 TB,QLC,2.5,SATA 6 Gbps,2020,Phison S12DC,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-qx-15-tb.d504
+Teamgroup T-Create Classic PCIe 4.0,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-create-classic-pcie-4-0-1-tb.d517
+Teamgroup T-Create Classic PCIe 4.0 DL,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-t-create-classic-pcie-4-0-dl-1-tb.d1199
+Teamgroup T-Create Classic SATA,1 TB,TLC,2.5,SATA 6 Gbps,2021,SM2259XT2,No,https://www.techpowerup.com/ssd-specs/teamgroup-t-create-classic-sata-1-tb.d1883
+Teamgroup T-Create Expert,1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-create-expert-1-tb.d515
+Teamgroup T-Force Cardea Zero Z340,256 GB 512 GB 1 TB 4 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12S,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-cardea-zero-z340-1-tb.d538
+Teamgroup T-Force Delta Max RGB,250 GB 500 GB 1 TB,TLC,2.5,SATA 6 Gbps,2019,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-delta-max-rgb-1-tb.d505
+Teamgroup T-Force Delta Phantom Gaming RGB,250 GB 500 GB 1 TB,TLC,2.5,SATA 6 Gbps,2019,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-delta-phantom-gaming-rgb-1-tb.d521
+Teamgroup T-Force Delta R RGB (Black),250 GB 500 GB 1 TB,TLC,2.5,SATA 6 Gbps,2020,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-delta-r-rgb-black-1-tb.d510
+Teamgroup T-Force Delta R RGB (White),250 GB 500 GB 1 TB,TLC,2.5,SATA 6 Gbps,2020,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-delta-r-rgb-white-1-tb.d513
+Teamgroup T-Force Delta S TUF Gaming RGB,250 GB 500 GB 1 TB,TLC,2.5,SATA 6 Gbps,2019,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-delta-s-tuf-gaming-rgb-1-tb.d518
+Teamgroup T-Force G50,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,IG5220,HMB,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-g50-1-tb.d2203
+Teamgroup T-Force G70 PRO (SK Hynix TLC V7 512Gb),1 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,IG5236,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-g70-pro-1-tb.d2280
+Teamgroup T-Force G70 PRO (YMTC TLC CDT1B 512Gb 128-Layers),512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,IG5236,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-g70-pro-1-tb.d2033
+Teamgroup T-Force G70 PRO (w/ Heatsink),512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,IG5236,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-g70-pro-w-heatsink-1-tb.d2037
+Teamgroup T-Force GE Pro,2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,IG5666,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-ge-pro-2-tb.d1860
+Teamgroup T-Force Vulcan Z (SM2258XT + SanDisk BiCS3),240 GB 256 GB 480 GB 512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2022,SM2258XT,No,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-vulcan-z-1-tb.d1153
+Teamgroup T-Force Vulcan Z (SM2259XT + SK Hynix V6),240 GB 256 GB 480 GB 512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2022,SM2259XT,No,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-vulcan-z-1-tb.d1147
+Teamgroup T-Force Z540,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,Phison E26,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-t-force-z540-1-tb.d1657
+Teamgroup Vulcan,250 GB 500 GB 1 TB,TLC,2.5,SATA 6 Gbps,2020,SM2258G,Yes,https://www.techpowerup.com/ssd-specs/teamgroup-vulcan-1-tb.d524
+Teamgroup Vulcan G,512 GB 1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2020,SM2258XT,No,https://www.techpowerup.com/ssd-specs/teamgroup-vulcan-g-1-tb.d528
+Teracle T450,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,IG5236,Yes,https://www.techpowerup.com/ssd-specs/teracle-t450-1-tb.d1891
+Toshiba BG4,128 GB 256 GB 512 GB 1 TB,TLC,M.2 2230,PCIe 3.0 x4,2019,KBG40ZNS,HMB,https://www.techpowerup.com/ssd-specs/toshiba-bg4-1-tb.d1292
+Toshiba Ethernet SSD,8 TB,TLC,U.2,PCIe 3.0 x4,2019,88SS5000,Yes,https://www.techpowerup.com/ssd-specs/toshiba-ethernet-ssd-8-tb.d1670
+Toshiba Q Series Pro,128 GB 256 GB 512 GB,MLC,2.5,SATA 6 Gbps,2013,88SS9189,No,https://www.techpowerup.com/ssd-specs/toshiba-q-series-pro-512-gb.d2246
+Transcend 240s,500 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,SM2267,Yes,https://www.techpowerup.com/ssd-specs/transcend-240s-1-tb.d798
+Transcend 250H,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2264F,Yes,https://www.techpowerup.com/ssd-specs/transcend-250h-1-tb.d1628
+Transcend MTE250S,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,SM2264F,Yes,https://www.techpowerup.com/ssd-specs/transcend-mte250s-1-tb.d1467
+Transcend SSD370S (SM2242EN + Micron 16nm),32 GB 64 GB 128 GB 256 GB 512 GB 1 TB,MLC,2.5,SATA 6 Gbps,2015,SM2246EN,Yes,https://www.techpowerup.com/ssd-specs/transcend-ssd370s-1-tb.d1236
+Valve Steam Deck SSD,256 GB 512 GB,TLC,M.2 2230,PCIe 3.0 x4,2022,Phison E13T,HMB,https://www.techpowerup.com/ssd-specs/valve-steam-deck-ssd-512-gb.d800
+VisionTek DLX4 Pro,512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,IG5236,Yes,https://www.techpowerup.com/ssd-specs/visiontek-dlx4-pro-1-tb.d1482
+Wicgtyp NV940,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/wicgtyp-nv940-1-tb.d1356
+XPG Atom 50 (IG5220),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5220,HMB,https://www.techpowerup.com/ssd-specs/xpg-atom-50-1-tb.d479
+XPG Atom 50 (SM2269XT),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/xpg-atom-50-1-tb.d883
+XPG Gammix S10,128 GB 256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2260,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s10-1-tb.d152
+XPG Gammix S11 Pro,256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s11-pro-1-tb.d147
+XPG Gammix S11 Pro (SM2262ENG + Micron B27B),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s11-pro-1-tb.d1563
+XPG Gammix S41 Tuf (Micron B16A),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s41-tuf-1-tb.d973
+XPG Gammix S41 Tuf (Micron B17A),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s41-tuf-1-tb.d971
+XPG Gammix S41 Tuf (Samsung V4),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s41-tuf-1-tb.d130
+XPG Gammix S5,256 GB 512 GB 1 TB 2 TB,Unknown,M.2 2280,PCIe 3.0 x4,2018,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-gammix-s5-1-tb.d159
+XPG Gammix S50,1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2019,Phison E16,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s50-1-tb.d124
+XPG Gammix S50 Lite (Micron B27B),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,SM2267,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s50-lite-1-tb.d931
+XPG Gammix S50 Lite (Micron B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,SM2267,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s50-lite-1-tb.d126
+XPG Gammix S60 (Phison E21T + SK Hynix V7 512Gb),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2024,Phison E21T,HMB,https://www.techpowerup.com/ssd-specs/xpg-gammix-s60-1-tb.d2075
+XPG Gammix S60 (SM2269XT + Micron B47R),512 GB,TLC,M.2 2280,PCIe 4.0 x4,2024,SM2269XT,HMB,https://www.techpowerup.com/ssd-specs/xpg-gammix-s60-512-gb.d2225
+XPG Gammix S7,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s7-1-tb.d154
+XPG Gammix S70 (IG5236 + B27B),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2020,IG5236,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-1-tb.d122
+XPG Gammix S70 (IG5236 + B47R),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-1-tb.d928
+XPG Gammix S70 Blade (Micron TLC B47R 512Gb),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-blade-1-tb.d120
+XPG Gammix S70 Blade (SK Hynix TLC V7 512Gb C-Die),2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-blade-2-tb.d2262
+XPG Gammix S70 Blade (YMTC X2-9060 TLC CDT1B 512Gb),1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2021,IG5236,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-blade-1-tb.d1411
+XPG Gammix S70 Pro,1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2264F,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-pro-1-tb.d1752
+XPG Gammix S70 Pro (w/ Heatsink),1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,SM2264F,Yes,https://www.techpowerup.com/ssd-specs/xpg-gammix-s70-pro-w-heatsink-1-tb.d1753
+XPG PCIe Gen5 SSD,8 TB,TLC,M.2 2280,PCIe 5.0 x4,2023,SM2508,Yes,https://www.techpowerup.com/ssd-specs/xpg-pcie-gen5-ssd-8-tb.d1283
+XPG SX6000 Lite (RTS5763DL + Micron B16A),256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2018,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-sx6000-lite-512-gb.d175
+XPG SX6000 Lite (RTS5763DL + Micron B17A),1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-sx6000-lite-1-tb.d176
+XPG SX6000 Lite (RTS5763DL + SpecTek B16A),128 GB,TLC,M.2 2280,PCIe 3.0 x4,2018,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-sx6000-lite-128-gb.d173
+XPG SX6000 Lite (RTS5763DL + YMTC BCT1B 256Gb 64-L),512 GB,TLC,M.2 2280,PCIe 3.0 x4,2020,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-sx6000-lite-512-gb.d2285
+XPG SX6000 Pro,256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,RTS5763DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-sx6000-pro-1-tb.d171
+XPG SX8100 (Micron B16A),256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2019,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8100-512-gb.d165
+XPG SX8100 (Micron B17A),1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8100-1-tb.d166
+XPG SX8100 (Micron N18A),4 TB,QLC,M.2 2280,PCIe 3.0 x4,2019,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8100-4-tb.d168
+XPG SX8200 Pro (Micron B16A),256 GB 512 GB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-512-gb.d161
+XPG SX8200 Pro (Micron B17A),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d162
+XPG SX8200 Pro (Micron B27A),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262G,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d879
+XPG SX8200 Pro (Micron B27B),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262G,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d877
+XPG SX8200 Pro (SK Hynix V5),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262G,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d910
+XPG SX8200 Pro (SK Hynix V6),2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262G,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-2-tb.d1329
+XPG SX8200 Pro (Samsung V4),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262G,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d892
+XPG SX8200 Pro (Samsung V6),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2022,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d926
+XPG SX8200 Pro (SanDisk BiCS4),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d914
+XPG SX8200 Pro (SpecTek B27A),256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d919
+XPG SX8200 Pro (YMTC BCT1B),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2018,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/xpg-sx8200-pro-1-tb.d923
+XPG Spectrix S20G,500 GB 1 TB,QLC,M.2 2280,PCIe 3.0 x4,2020,RTS5762DL,HMB,https://www.techpowerup.com/ssd-specs/xpg-spectrix-s20g-1-tb.d136
+XPG Spectrix S40G RGB,256 GB 512 GB 1 TB 2 TB 4 TB,TLC,M.2 2280,PCIe 3.0 x4,2019,RTS5762,Yes,https://www.techpowerup.com/ssd-specs/xpg-spectrix-s40g-rgb-1-tb.d133
+Xraydisk SSD,1 TB,TLC,2.5,SATA 6 Gbps,Unknown,YS9082HP,No,https://www.techpowerup.com/ssd-specs/xraydisk-ssd-1-tb.d1573
+Zadak Spark RGB,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2020,Phison E12,Yes,https://www.techpowerup.com/ssd-specs/zadak-spark-rgb-1-tb.d251
+Zadak TWSG3,128 GB 256 GB 512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,IG5216,HMB,https://www.techpowerup.com/ssd-specs/zadak-twsg3-1-tb.d256
+Zadak TWSG4S (MAP1602 + YMTC EET1A),2 TB,TLC,M.2 2280,PCIe 4.0 x4,2023,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/zadak-twsg4s-2-tb.d1858
+Zadak TWSG4S (Phison E18 + Micron B47R),512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,Phison E18,Yes,https://www.techpowerup.com/ssd-specs/zadak-twsg4s-1-tb.d1029
+Zadak TWSS3 (Kioxia BiCS4),1 TB 2 TB,TLC,2.5,SATA 6 Gbps,2021,SM2258XT,Yes,https://www.techpowerup.com/ssd-specs/zadak-twss3-1-tb.d248
+Zadak TWSS3 (YMTC),128 GB 256 GB 512 GB,TLC,2.5,SATA 6 Gbps,2021,SM2258XT,Yes,https://www.techpowerup.com/ssd-specs/zadak-twss3-512-gb.d247
+Zhitai PC005 Active,1 TB,TLC,M.2 2280,PCIe 3.0 x4,2021,SM2262ENG,Yes,https://www.techpowerup.com/ssd-specs/zhitai-pc005-active-1-tb.d1995
+Zhitai SC001,256 GB 512 GB 1 TB,TLC,2.5,SATA 6 Gbps,Unknown,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/zhitai-sc001-1-tb.d1633
+Zhitai TiPRO7000,512 GB 1 TB 2 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,IG5236,Yes,https://www.techpowerup.com/ssd-specs/zhitai-tipro7000-1-tb.d1193
+Zhitai TiPlus7100,512 GB 1 TB,TLC,M.2 2280,PCIe 4.0 x4,2022,MAP1602A,HMB,https://www.techpowerup.com/ssd-specs/zhitai-tiplus7100-1-tb.d1250
+Zhitai TiPro9000,2 TB,TLC,M.2 2280,PCIe 5.0 x4,2024,SM2508,Yes,https://www.techpowerup.com/ssd-specs/zhitai-tipro9000-2-tb.d2267
+Zircon L1 Series (Micron N48R),256 GB 512 GB,QLC,M.2 2280,SATA 6 Gbps,2023,MAS1102B-B1C,No,https://www.techpowerup.com/ssd-specs/zircon-l1-series-512-gb.d1641
+Zircon L1 Series (SK Hynix V6),128 GB,TLC,M.2 2280,SATA 6 Gbps,2023,MAS1102B-B1C,No,https://www.techpowerup.com/ssd-specs/zircon-l1-series-128-gb.d1639
+Zircon R1 Series (SK Hynix V6),256 GB,TLC,M.2 2280,PCIe 3.0 x4,2023,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/zircon-r1-series-256-gb.d1638
+Zircon R1 Series (SanDisk BiCS5),256 GB 512 GB 1 TB,TLC,M.2 2280,PCIe 3.0 x4,2023,MAP1202A-F1C,HMB,https://www.techpowerup.com/ssd-specs/zircon-r1-series-1-tb.d1636
+Zircon Z1 Series (MAS0902 + Micron B27B),128 GB,TLC,2.5,SATA 6 Gbps,2022,MAS0902A-B2C,No,https://www.techpowerup.com/ssd-specs/zircon-z1-series-128-gb.d1653
+Zircon Z1 Series (MAS1102 + Micron N48R),256 GB 512 GB,QLC,2.5,SATA 6 Gbps,2022,MAS1102B-B1C,No,https://www.techpowerup.com/ssd-specs/zircon-z1-series-512-gb.d1654
