@@ -1,0 +1,1 @@
+The data used in this database is from [TeachPowerUp's SSD Database](https://www.techpowerup.com/ssd-specs/). All the data is put together by Gabriel Ferraz. This is just another way to visualize the data and be able to filter it.
