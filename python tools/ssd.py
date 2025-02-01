@@ -134,14 +134,14 @@ def scrape_urls_concurrently(urls):
 
 
 def delete_existing_files():
-    files = ['../data/ssd.csv']
+    files = ['ssd.csv']
     for file in files:
         if os.path.exists(file):
             os.remove(file)
 
 
 delete_existing_files()
-with open('../data/ssd.csv', 'w', newline='', encoding='utf-8') as file:
+with open('ssd.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Model', 'Capacity', 'NAND Type', 'Format',
                     'Interface', 'Released', 'Controller', 'DRAM', 'Product URL'])

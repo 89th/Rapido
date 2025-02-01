@@ -129,7 +129,7 @@ def scrape_urls_concurrently(urls):
     return all_data
 
 
-with open('../data/ssd.csv', 'r+', newline='', encoding='utf-8') as file:
+with open('ssd.csv', 'r+', newline='', encoding='utf-8') as file:
     reader = csv.reader(file)
     rows = list(reader)
     header = rows[0]
