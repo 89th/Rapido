@@ -182,7 +182,6 @@ function getUniqueOptions(data, columnIndex) {
   return Array.from(optionSet);
 }
 
-// Function to reset all filters to their default state
 function resetFilters() {
   document.getElementById("format").value = "";
   document.getElementById("dram").value = "";
@@ -196,6 +195,9 @@ function resetFilters() {
 
   // Reset the URL without filters and search term
   window.history.pushState({}, "", window.location.pathname); // Remove filters and search from the URL
+
+  // Ensure the URL is updated
+  updateURL(); // This will remove any filters or search term from the URL
 }
 
 // Function to update the URL based on selected filter values
