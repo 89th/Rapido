@@ -1,7 +1,6 @@
-const csvFile = "https://89th.github.io/Rapido/data/ssd.csv";
-let allData = []; // Store all the data globally
+const csvFile = "/Rapido/data/ssd.csv";
+let allData = [];
 
-// Fetch CSV file and process data
 fetch(csvFile)
   .then((response) => {
     if (!response.ok) {
@@ -14,14 +13,12 @@ fetch(csvFile)
       .trim()
       .split("\n")
       .map((row) => row.split(","));
-    rows.shift(); // Remove the header row
-    allData = rows; // Store the data globally
+    rows.shift();
+    allData = rows;
 
-    // Populate filters and table
     populateFilters(allData);
     renderTable(allData);
 
-    // Set up event listeners for filters
     const filterElements = ["format", "dram", "type", "interface"];
     filterElements.forEach((id) => {
       document.getElementById(id).addEventListener("change", () => {
@@ -30,32 +27,27 @@ fetch(csvFile)
       });
     });
 
-    // Search input event listener
     document.getElementById("searchInput").addEventListener("input", () => {
       filterTable();
-      updateURL(); // Ensure search term is updated in the URL
+      updateURL();
     });
 
-    // Reset button event listener
     document
       .getElementById("resetButton")
       .addEventListener("click", resetFilters);
 
-    // Clear search button event listener
     document.getElementById("clearSearch").addEventListener("click", () => {
       document.getElementById("searchInput").value = "";
-      filterTable(); // Call the filter function to reset the table
-      updateURL(); // Ensure the URL is updated when clearing the search
+      filterTable();
+      updateURL();
     });
 
-    // Load filters and search term from the URL after data is loaded
     loadFiltersFromURL();
   })
   .catch((error) => {
     console.error("Failed to fetch CSV file:", error);
   });
 
-// Function to populate filters
 function populateFilters(data) {
   const formatSet = new Set();
   const typeSet = new Set();
@@ -63,10 +55,10 @@ function populateFilters(data) {
   const dramSet = new Set();
 
   data.forEach((row) => {
-    formatSet.add(cleanValue(row[3])); // Format
-    typeSet.add(cleanValue(row[2])); // Type
-    interfaceSet.add(cleanValue(row[4])); // Interface
-    dramSet.add(cleanValue(row[7])); // DRAM
+    formatSet.add(cleanValue(row[3]));
+    typeSet.add(cleanValue(row[2]));
+    interfaceSet.add(cleanValue(row[4]));
+    dramSet.add(cleanValue(row[7]));
   });
 
   updateDropdown("format", Array.from(formatSet));
@@ -75,15 +67,13 @@ function populateFilters(data) {
   updateDropdown("dram", Array.from(dramSet));
 }
 
-// Function to clean up values (remove unwanted characters)
 function cleanValue(value) {
   return value ? value.replace(/[\r\n]+/g, "").trim() : "";
 }
 
-// Function to update dropdowns with filter options
 function updateDropdown(elementId, options) {
   const select = document.getElementById(elementId);
-  select.innerHTML = '<option value="">All</option>'; // Reset dropdown
+  select.innerHTML = '<option value="">All</option>';
 
   options.forEach((option) => {
     const opt = document.createElement("option");
@@ -93,20 +83,17 @@ function updateDropdown(elementId, options) {
   });
 }
 
-// Function to render the table rows
 function renderTable(data) {
   const tableBody = document.getElementById("dataTable");
-  tableBody.innerHTML = ""; // Clear existing rows
+  tableBody.innerHTML = "";
 
   data.forEach((row) => {
     const tr = document.createElement("tr");
 
-    // Create model cell with link
-    const modelCell = createTableCellWithLink(row[0], row[10]);
+    const modelCell = createTableCellWithLink(row[0], row[row.length - 1]);
     tr.appendChild(modelCell);
 
-    // Add remaining table cells
-    const columnIndexes = [1, 2, 3, 4, 5, 6, 8, 9, 7]; // Ordered columns
+    const columnIndexes = [1, 2, 3, 4, 5, 6, 8, 9, 10, 7];
     columnIndexes.forEach((index) => {
       tr.appendChild(createTableCell(row[index]));
     });
@@ -115,14 +102,12 @@ function renderTable(data) {
   });
 }
 
-// Helper function to create a standard table cell
 function createTableCell(value) {
   const td = document.createElement("td");
   td.textContent = cleanValue(value);
   return td;
 }
 
-// Helper function to create a table cell with a clickable link
 function createTableCellWithLink(text, url) {
   const td = document.createElement("td");
   const link = document.createElement("a");
@@ -133,7 +118,6 @@ function createTableCellWithLink(text, url) {
   return td;
 }
 
-// Function to filter the table based on selected filters and search input
 function filterTable() {
   const searchTerm = cleanValue(
     document.getElementById("searchInput").value
@@ -144,11 +128,10 @@ function filterTable() {
   const interfaceValue = cleanValue(document.getElementById("interface").value);
 
   let filteredData = allData.filter((row) => {
-    const modelName = cleanValue(row[0]).toLowerCase(); // Assuming row[0] is Model Name
+    const modelName = cleanValue(row[0]).toLowerCase();
 
-    // Match the search term from the start of the model name (full word, left to right)
     return (
-      (searchTerm === "" || modelName.startsWith(searchTerm)) && // Use startsWith() for full word match
+      (searchTerm === "" || modelName.startsWith(searchTerm)) &&
       (format === "" || cleanValue(row[3]) === format) &&
       (dram === "" || cleanValue(row[7]) === dram) &&
       (type === "" || cleanValue(row[2]) === type) &&
@@ -156,7 +139,6 @@ function filterTable() {
     );
   });
 
-  // Update dropdowns only if the filter is not selected
   if (format === "") {
     updateDropdown("format", getUniqueOptions(filteredData, 3));
   }
@@ -173,7 +155,6 @@ function filterTable() {
   renderTable(filteredData);
 }
 
-// Helper function to get unique options for each filter column
 function getUniqueOptions(data, columnIndex) {
   const optionSet = new Set();
   data.forEach((row) => {
@@ -187,20 +168,16 @@ function resetFilters() {
   document.getElementById("dram").value = "";
   document.getElementById("type").value = "";
   document.getElementById("interface").value = "";
-  document.getElementById("searchInput").value = ""; // Clear the search box
+  document.getElementById("searchInput").value = "";
 
-  // Re-load all data and reset the table
   renderTable(allData);
   populateFilters(allData);
 
-  // Reset the URL without filters and search term
-  window.history.pushState({}, "", window.location.pathname); // Remove filters and search from the URL
+  window.history.pushState({}, "", window.location.pathname);
 
-  // Ensure the URL is updated
-  updateURL(); // This will remove any filters or search term from the URL
+  updateURL();
 }
 
-// Function to update the URL based on selected filter values
 function updateURL() {
   const searchTerm = cleanValue(document.getElementById("searchInput").value);
   const format = cleanValue(document.getElementById("format").value);
@@ -210,20 +187,16 @@ function updateURL() {
 
   const urlParams = new URLSearchParams();
 
-  // Always add the search term first if available
   if (searchTerm) urlParams.set("search", searchTerm);
 
-  // Add filters to the URL params
   if (format) urlParams.set("format", format);
   if (dram) urlParams.set("dram", dram);
   if (type) urlParams.set("type", type);
   if (interfaceValue) urlParams.set("interface", interfaceValue);
 
-  // Update the browser URL without reloading the page
   window.history.pushState({}, "", "?" + urlParams.toString());
 }
 
-// Function to load filter values from the URL (if any)
 function loadFiltersFromURL() {
   const urlParams = new URLSearchParams(window.location.search);
   document.getElementById("format").value = urlParams.get("format") || "";
@@ -231,10 +204,12 @@ function loadFiltersFromURL() {
   document.getElementById("type").value = urlParams.get("type") || "";
   document.getElementById("interface").value = urlParams.get("interface") || "";
 
-  // Load the search term from the URL (if any)
   const searchTerm = urlParams.get("search") || "";
   document.getElementById("searchInput").value = searchTerm;
 
-  // Trigger filtering with the loaded search term
   filterTable();
+}
+
+function goBack() {
+  window.location.href = "/Rapido";
 }

@@ -13,11 +13,11 @@
       property="og:description"
       content="Explore and filter SSD models based on format, NAND type, DRAM, and more."
     />
-    <link rel="icon" href="https://89th.github.io/Rapido/src/img/favicon.ico" />
+    <link rel="icon" href="/Rapido/src/img/favicon.ico" />
     <title>SSD Database</title>
     <link
       rel="stylesheet"
-      href="https://89th.github.io/Rapido/src/css/styles.css"
+      href="/Rapido/src/css/styles.css"
     />
   </head>
   <body>
@@ -31,29 +31,28 @@
         </button>
       </div>
     </label>
-
     <div class="filters">
-      <label for="format"
-        >Format:
-        <select id="format">
-          <option value=""></option>
-        </select>
-      </label>
-      <label for="dram"
-        >DRAM:
-        <select id="dram">
-          <option value=""></option>
-        </select>
-      </label>
       <label for="type"
         >NAND Type:
         <select id="type">
           <option value=""></option>
         </select>
       </label>
+      <label for="format"
+        >Format:
+        <select id="format">
+          <option value=""></option>
+        </select>
+      </label>
       <label for="interface"
         >Interface:
         <select id="interface">
+          <option value=""></option>
+        </select>
+      </label>
+      <label for="dram"
+        >DRAM:
+        <select id="dram">
           <option value=""></option>
         </select>
       </label>
@@ -72,12 +71,13 @@
           <th>Controller</th>
           <th>Sequential RW</th>
           <th>Random RW</th>
+          <th>Endurance</th>
           <th>DRAM</th>
         </tr>
       </thead>
       <tbody id="dataTable"></tbody>
     </table>
-    <script src="https://89th.github.io/Rapido/src/js/scripts.js"></script>
+    <script src="/Rapido/src/js/scripts.js"></script>
   </body>
 
   <footer>

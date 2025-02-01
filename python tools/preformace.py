@@ -78,7 +78,7 @@ def scrape_page(url):
                     break
             if performance_section:
                 rows = performance_section.find_all('tr')
-                sequential_read, sequential_write, random_read, random_write = None, None, None, None
+                sequential_read, sequential_write, random_read, random_write, endurance = None, None, None, None, None
                 for row in rows:
                     th = row.find('th')
                     td = row.find('td')
@@ -93,11 +93,18 @@ def scrape_page(url):
                             random_read = td_text
                         elif th_text == "Random Write:":
                             random_write = td_text
+                        elif th_text == "Endurance:":
+                            endurance = td_text
+
                 sequential_rw = f"{sequential_read.replace(' MB/s', '').replace(',', '')}/{sequential_write.replace(
                     ' MB/s', '').replace(',', '')} MB/s" if sequential_read and sequential_write else 'N/A'
                 random_rw = f"{random_read.replace(' IOPS', '').replace(',', '')}/{random_write.replace(
                     ' IOPS', '').replace(',', '')} IOPS" if random_read and random_write else 'N/A'
-                return [sequential_rw, random_rw]
+                endurance = f"{endurance.replace(' TBW', '').replace(
+                    ',', '')} TBW" if endurance else 'N/A'
+
+                return [sequential_rw, random_rw, endurance]
+
             else:
                 return None
         except requests.exceptions.RequestException as e:
@@ -130,15 +137,17 @@ with open('../data/ssd.csv', 'r+', newline='', encoding='utf-8') as file:
     product_url_index = header.index("Product URL")
     header.insert(dram_index + 1, "Sequential R/W")
     header.insert(dram_index + 2, "Random R/W")
+    header.insert(dram_index + 3, "Endurance")
     urls = [row[product_url_index] for row in rows[1:]]
     all_data = scrape_urls_concurrently(urls)
     url_data_map = {url: data for url, data in all_data}
     for row in rows[1:]:
         product_url = row[product_url_index]
         if product_url in url_data_map:
-            sequential_rw, random_rw = url_data_map[product_url]
+            sequential_rw, random_rw, endurance = url_data_map[product_url]
             row.insert(dram_index + 1, sequential_rw)
             row.insert(dram_index + 2, random_rw)
+            row.insert(dram_index + 3, endurance)
     file.seek(0)
     writer = csv.writer(file)
     writer.writerows(rows)
