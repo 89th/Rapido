@@ -1,4 +1,4 @@
-const csvFile = "../../data/ssd.csv";
+const csvFile = "https://89th.github.io/Rapido/data/ssd.csv";
 let allData = []; // Store all the data globally
 
 // Fetch CSV file and process data
