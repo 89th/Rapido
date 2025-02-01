@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SSD Database: Search and filter SSD models based on format, NAND type, and other specs."
+    />
+    <meta name="author" content="89th.dev" />
+    <meta property="og:title" content="SSD Database" />
+    <meta
+      property="og:description"
+      content="Explore and filter SSD models based on format, NAND type, DRAM, and more."
+    />
+    <link rel="icon" href="/src/img/favicon.ico" />
+    <title>SSD Database</title>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+  <body>
+    <h1>SSD Database Viewer</h1>
+
+    <p>
+      This project provides an interactive way to explore and filter data from
+      the TeachPowerUp SSD Database. Our goal is to present the SSD
+      specifications in a user-friendly format that allows for easy filtering,
+      comparison, and visualization.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>
+        <strong>Data Visualization:</strong> View SSD specifications in an
+        organized table.
+      </li>
+      <li>
+        <strong>Filter Options:</strong> Easily filter data by key parameters
+        such as brand, capacity, type, and performance.
+      </li>
+      <li>
+        <strong>Search Functionality:</strong> Find specific SSD models quickly
+        with the built-in search feature.
+      </li>
+      <li>
+        <strong>Responsive Interface:</strong> Compatible with desktop and
+        mobile devices for easy use anywhere.
+      </li>
+    </ul>
+
+    <h2>Data Source & Acknowledgements</h2>
+    <p>
+      This project uses data from TeachPowerUp’s SSD Database. All the data has
+      been meticulously compiled by Gabriel Ferraz, who sources SSD
+      specifications from various manufacturers.
+      <a href="https://www.techpowerup.com/ssd-specs/" target="_blank"
+        >Link to the original Database.</a
+      >
+    </p>
+
+    <button id="backButton" onclick="goBack()">Go Back</button>
+
+    <footer>
+      <a href="https://github.com/89th/Rapido" target="_blank">GitHub Repo</a> |
+      <a href="https://www.youtube.com/watch?v=cd4-UnU8lWY&t=34s"
+        >Sell My Personal Information?</a
+      >
+    </footer>
+
+    <script>
+      function goBack() {
+        window.location.href = "/";
+      }
+    </script>
+  </body>
+</html>
