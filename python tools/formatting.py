@@ -11,10 +11,11 @@ def format_value(value):
             return "Unknown MB/s"
         elif "Unknown/Unknown IOPS" in value:
             return "Unknown IOPS"
+        value = value.replace(" GB", "GB").replace(" TB", "TB")
     return value
 
 
-df = df.apply(lambda col: col.apply(format_value))
+df = df.map(format_value)
 
 output_file = '../data/ssd.csv'
 df.to_csv(output_file, index=False)
