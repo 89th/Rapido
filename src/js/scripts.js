@@ -1,4 +1,4 @@
-const csvFile = "../../data/ssd.csv";
+const csvFile = "/Rapido/data/ssd.csv";
 let allData = [];
 
 const capacityMapping = {
