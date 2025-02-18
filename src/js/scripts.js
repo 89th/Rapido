@@ -66,15 +66,18 @@ fetch(csvFile)
       });
     });
 
+    let searchTimeout;
     document.getElementById("searchInput").addEventListener("input", () => {
-      filterTable();
-      updateURL();
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        filterTable();
+        updateURL();
+      }, 300); // 300ms debounce
     });
 
     document
       .getElementById("resetButton")
       .addEventListener("click", resetFilters);
-
     document.getElementById("clearSearch").addEventListener("click", () => {
       document.getElementById("searchInput").value = "";
       filterTable();
@@ -86,24 +89,31 @@ fetch(csvFile)
   .catch((error) => console.error("Failed to fetch CSV file:", error));
 
 function populateFilters(data) {
-  const formatSet = new Set();
-  const typeSet = new Set();
-  const interfaceSet = new Set();
-  const dramSet = new Set();
-  capacitySet = new Set(Object.values(capacityMapping)); // Use mapped values
+  const filterSets = {
+    format: new Set(),
+    type: new Set(),
+    interface: new Set(),
+    dram: new Set(),
+    capacity: new Set(Object.values(capacityMapping)),
+  };
 
   data.forEach((row) => {
-    formatSet.add(cleanValue(row[3]));
-    typeSet.add(cleanValue(row[2]));
-    interfaceSet.add(cleanValue(row[4]));
-    dramSet.add(cleanValue(row[7]));
+    filterSets.format.add(cleanValue(row[3]));
+    filterSets.type.add(cleanValue(row[2]));
+    filterSets.interface.add(cleanValue(row[4]));
+    filterSets.dram.add(cleanValue(row[7]));
+
+    let rowCapacities =
+      cleanValue(row[1]).match(/\d+(\.\d+)?\s?(GB|TB)/g) || [];
+    rowCapacities = rowCapacities.map((cap) => cap.replace(/\s/, ""));
+    rowCapacities.forEach((cap) =>
+      filterSets.capacity.add(capacityMapping[cap] || cap)
+    );
   });
 
-  updateDropdown("format", Array.from(formatSet));
-  updateDropdown("type", Array.from(typeSet));
-  updateDropdown("interface", Array.from(interfaceSet));
-  updateDropdown("dram", Array.from(dramSet));
-  updateDropdown("capacity", Array.from(capacitySet));
+  Object.keys(filterSets).forEach((key) => {
+    updateDropdown(key, Array.from(filterSets[key]));
+  });
 }
 
 function cleanValue(value) {
@@ -138,21 +148,22 @@ function mapCapacity(value) {
 
 function renderTable(data) {
   const tableBody = document.getElementById("dataTable");
-  tableBody.innerHTML = "";
+  let tableHTML = "";
 
   data.forEach((row) => {
-    const tr = document.createElement("tr");
-
     const modelCell = createTableCellWithLink(row[0], row[row.length - 1]);
-    tr.appendChild(modelCell);
+    let rowHTML = `<tr>${modelCell.outerHTML}`;
 
     const columnIndexes = [1, 2, 3, 4, 5, 6, 8, 9, 10, 7];
     columnIndexes.forEach((index) => {
-      tr.appendChild(createTableCell(row[index]));
+      rowHTML += createTableCell(row[index]).outerHTML;
     });
 
-    tableBody.appendChild(tr);
+    rowHTML += `</tr>`;
+    tableHTML += rowHTML;
   });
+
+  tableBody.innerHTML = tableHTML; // Insert all rows at once
 }
 
 function createTableCell(value) {
@@ -185,16 +196,13 @@ function filterTable() {
     document.getElementById("capacity").value
   );
 
+  // Preprocess capacities only once
+  const preprocessedCapacities = preprocessCapacities(allData);
+
   // Apply filtering based on selected values
-  let filteredData = allData.filter((row) => {
+  let filteredData = allData.filter((row, index) => {
     const modelName = cleanValue(row[0]).toLowerCase();
-    let rowCapacities =
-      cleanValue(row[1]).match(/\d+(\.\d+)?\s?(GB|TB)/g) || [];
-    rowCapacities = rowCapacities.map((cap) => cap.replace(/\s/, ""));
-    rowCapacities = rowCapacities.flatMap((cap) => [
-      cap,
-      capacityMapping[cap] || cap,
-    ]);
+    let rowCapacities = preprocessedCapacities[index];
 
     return (
       (searchTerm === "" || modelName.startsWith(searchTerm)) &&
@@ -231,7 +239,7 @@ function filterTable() {
 }
 
 function ensureSelectedValue(set, value) {
-  if (value) set.add(value); // Ensure the selected value is not removed from the dropdown
+  if (value && !set.includes(value)) set.push(value); // Keep selected value if still valid
 }
 
 function getUniqueOptions(data, columnIndex) {
@@ -255,8 +263,13 @@ function getUniqueCapacities(data) {
   return Array.from(capacitySet).sort((a, b) => parseInt(a) - parseInt(b));
 }
 
-function ensureSelectedValue(set, value) {
-  if (value && !set.includes(value)) set.push(value); // Keep selected value if still valid
+function preprocessCapacities(data) {
+  return data.map((row) => {
+    let rowCapacities =
+      cleanValue(row[1]).match(/\d+(\.\d+)?\s?(GB|TB)/g) || [];
+    rowCapacities = rowCapacities.map((cap) => cap.replace(/\s/, ""));
+    return rowCapacities.flatMap((cap) => [cap, capacityMapping[cap] || cap]);
+  });
 }
 
 function resetFilters() {
