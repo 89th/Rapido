@@ -4,13 +4,21 @@ import csv
 import random
 import re
 import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from swiftshadow.classes import ProxyInterface
 
+# Set up logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Initialize Swiftshadow proxy manager
+proxy_manager = ProxyInterface(
+    countries=["US"], protocol="http", autoRotate=True)
+
+
+# User-Agent pool
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36",
@@ -20,6 +28,7 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Opera/75.0.3969.2439 Safari/537.36"
 ]
 
+# HTTP Headers
 HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Encoding": "gzip, deflate, br",
@@ -29,45 +38,46 @@ HEADERS = {
     "Cache-Control": "max-age=0",
 }
 
-
-def get_proxy(delay=1):
-    while True:
-        try:
-            response = requests.get(
-                "https://gimmeproxy.com/api/getProxy?protocol=socks5")
-            if response.status_code == 200:
-                proxy_data = response.json()
-                return {
-                    "http": f"socks5://{proxy_data['ip']}:{proxy_data['port']}",
-                    "https": f"socks5://{proxy_data['ip']}:{proxy_data['port']}"
-                }
-            else:
-                continue
-        except Exception as e:
-            pass
-        time.sleep(delay)
+# Clean extracted text
 
 
 def clean_value(value):
     return value.strip().replace("\n", "").replace("\r", "")
 
+# Delete old output files
+
+
+def delete_existing_files():
+    files = ['ssd.csv']
+    for file in files:
+        if os.path.exists(file):
+            os.remove(file)
+
+# Scrape individual URL
+
 
 def scrape_page(url):
-    user_agent = random.choice(USER_AGENTS)
-    headers = HEADERS.copy()
-    headers['User-Agent'] = user_agent
-    proxy = get_proxy()
-    if proxy is None:
-        return None
     while True:
+        proxy = proxy_manager.get()
+        user_agent = random.choice(USER_AGENTS)
+        headers = HEADERS.copy()
+        headers['User-Agent'] = user_agent
+
+        proxies = {
+            "http": f"{proxy.protocol}://{proxy.ip}:{proxy.port}",
+            "https": f"{proxy.protocol}://{proxy.ip}:{proxy.port}"
+        }
+
         try:
+            logging.info(f"Trying {url} with proxy {proxy.ip}:{proxy.port}")
             response = requests.get(
-                url, headers=headers, proxies=proxy, timeout=10)
+                url, headers=headers, proxies=proxies, timeout=10)
+
             if response.status_code == 200:
-                logging.info(
-                    f"Successfully fetched and scraped {url}")
+                logging.info(f"Success for {url}")
                 soup = BeautifulSoup(response.text, 'html.parser')
                 table = soup.find('table', class_='drives-desktop-table')
+
                 if table:
                     rows = table.find_all('tr')
                     data = []
@@ -82,8 +92,7 @@ def scrape_page(url):
                             strip=True)) if model_name_tag else 'Unknown Model'
                         product_url_tag = model_capacity_cell.find(
                             'a', class_='drive-name')
-                        product_url = f"https://www.techpowerup.com{
-                            product_url_tag['href']}" if product_url_tag else 'No URL'
+                        product_url = f"https://www.techpowerup.com{product_url_tag['href']}" if product_url_tag else 'No URL'
                         capacities = model_capacity_cell.find_all(
                             'a', class_='drive-capacity')
                         capacity_list = [clean_value(capacity.get_text(
@@ -109,12 +118,24 @@ def scrape_page(url):
                         row_data = [model_name, capacity_str, nand_type, format_,
                                     interface, released, controller, dram, product_url]
                         data.append(row_data)
-                    logging.info(f"Successfully scraped data from {url}")
                     return data
-        except requests.exceptions.RequestException as e:
-            proxy = get_proxy()
-            if proxy is None:
-                continue
+                else:
+                    logging.warning(
+                        f"No data table found at {url}. Retrying...")
+                    time.sleep(2)
+
+            else:
+                logging.warning(
+                    f"Bad response {response.status_code} from {url}. Retrying...")
+                if response.status_code in (429, 500, 502, 503):
+                    raise requests.RequestException(
+                        f"Retrying due to HTTP {response.status_code}")
+                time.sleep(2)
+
+        except requests.RequestException as e:
+            logging.error(
+                f"Request failed for {url} with proxy {proxy.ip}:{proxy.port} - {e}")
+            time.sleep(2)
 
 
 def scrape_urls_concurrently(urls):
@@ -129,25 +150,21 @@ def scrape_urls_concurrently(urls):
                 if data:
                     all_data.extend(data)
             except Exception as e:
-                pass
+                logging.error(f"Error processing {url}: {e}")
     return all_data
 
 
-def delete_existing_files():
-    files = ['ssd.csv']
-    for file in files:
-        if os.path.exists(file):
-            os.remove(file)
-
-
-delete_existing_files()
-with open('ssd.csv', 'w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    writer.writerow(['Model', 'Capacity', 'NAND Type', 'Format',
-                    'Interface', 'Released', 'Controller', 'DRAM', 'Product URL'])
-    with open('urls.txt', 'r') as url_file:
-        urls = [url.strip() for url in url_file.readlines() if url.strip()]
-    all_data = scrape_urls_concurrently(urls)
-    all_data.sort(key=lambda x: x[0].lower() if isinstance(x[0], str) else "")
-    for row in all_data:
-        writer.writerow(row)
+# Main logic
+if __name__ == "__main__":
+    delete_existing_files()
+    with open('ssd.csv', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Model', 'Capacity', 'NAND Type', 'Format',
+                         'Interface', 'Released', 'Controller', 'DRAM', 'Product URL'])
+        with open('urls.txt', 'r') as url_file:
+            urls = [url.strip() for url in url_file.readlines() if url.strip()]
+        all_data = scrape_urls_concurrently(urls)
+        all_data.sort(key=lambda x: x[0].lower()
+                      if isinstance(x[0], str) else "")
+        for row in all_data:
+            writer.writerow(row)

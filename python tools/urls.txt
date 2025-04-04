@@ -1,6 +1,7 @@
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Acer
 https://www.techpowerup.com/ssd-specs/search/?mfgr=ADATA
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Addlink
+https://www.techpowerup.com/ssd-specs/search/?mfgr=Advantech
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Aigo
 https://www.techpowerup.com/ssd-specs/search/?mfgr=AMD
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Anaconda
@@ -26,7 +27,6 @@ https://www.techpowerup.com/ssd-specs/search/?mfgr=Drevo
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Enmotus
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Fanxiang
 https://www.techpowerup.com/ssd-specs/search/?mfgr=FlumeIO
-https://www.techpowerup.com/ssd-specs/search/?mfgr=Framework
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Galax
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Gigabyte
 https://www.techpowerup.com/ssd-specs/search/?mfgr=Goodram

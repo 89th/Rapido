@@ -2,3 +2,4 @@ pysocks
 requests
 beautifulsoup4
 pandas
+swiftshadow
