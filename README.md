@@ -14,8 +14,10 @@ This project uses data from TechPowerUp’s SSD Database. All the data has been 
 
 ## To Do
 
-- [x] Make it so you dont have to click "All" to clear that filter. 
 - [ ] Fix URL filters input
 - [ ] Change capacity to bins of size (<1 TB, 1-2, 2-3, ...)
 - [ ] Fix listener for changes to selection boxes
-- [ ] Fix clicking on selection boxes (currently have to hold, move, release)
+
+## Completed To Do (yaaay!)
+- [x] Make it so you dont have to click "All" to clear that filter. 
+- [x] Fix clicking on selection boxes (currently have to hold, move, release)
