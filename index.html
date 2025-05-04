@@ -13,9 +13,9 @@
       property="og:description"
       content="Explore and filter SSD models based on format, NAND type, DRAM, and more."
     />
-    <link rel="icon" href="/Rapido/src/img/favicon.ico" />
+    <link rel="icon" href="src/img/favicon.ico" />
     <title>SSD Database</title>
-    <link rel="stylesheet" href="/Rapido/src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
   </head>
   <body>
     <h1>SSD Database</h1>
@@ -31,34 +31,35 @@
     <div class="filters">
       <label for="type"
         >NAND Type:
-        <select id="type">
+        <select id="type" multiple multiselect-search="true" multiselect-select-all="true">
           <option value=""></option>
         </select>
       </label>
       <label for="capacity"
         >Capacity:
-        <select id="capacity">
+        <select id="capacity" multiple multiselect-search="true" multiselect-select-all="true">
           <option value=""></option>
         </select>
       </label>
       <label for="format"
         >Format:
-        <select id="format">
+        <select id="format" multiple multiselect-search="true" multiselect-select-all="true">
           <option value=""></option>
         </select>
       </label>
       <label for="interface"
         >Interface:
-        <select id="interface">
+        <select id="interface" multiple multiselect-search="true" multiselect-select-all="true">
           <option value=""></option>
         </select>
       </label>
       <label for="dram"
         >DRAM:
-        <select id="dram">
+        <select id="dram" multiple multiselect-search="true" multiselect-select-all="true">
           <option value=""></option>
         </select>
       </label>
+      <button id="searchButton">SEARCH</button>
       <button id="resetButton">Reset Filters</button>
     </div>
 
@@ -80,7 +81,9 @@
       </thead>
       <tbody id="dataTable"></tbody>
     </table>
-    <script src="/Rapido/src/js/scripts.js"></script>
+    <script src="src/js/scripts.js"></script>
+    <!-- https://github.com/admirhodzic/multiselect-dropdown -->
+    <script src="src/js/multiselect-dropdown.js" ></script>
   </body>
 
   <footer>

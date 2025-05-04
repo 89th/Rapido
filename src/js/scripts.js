@@ -1,4 +1,4 @@
-const csvFile = "/Rapido/data/ssd.csv";
+const csvFile = "data/ssd.csv";
 let allData = [];
 
 const capacityMapping = {
@@ -59,32 +59,41 @@ fetch(csvFile)
     populateFilters(allData);
     renderTable(allData);
 
-    ["format", "dram", "type", "interface", "capacity"].forEach((id) => {
+    // I don't know what event is equivalent to "change" for these dropdowns
+    /*["format", "dram", "type", "interface", "capacity"].forEach((id) => {
       document.getElementById(id).addEventListener("change", () => {
         filterTable();
         updateURL();
       });
+    });*/
+
+    document.getElementById("searchButton").addEventListener("click", () => {
+      filterTable();
+      //updateURL();
     });
+
 
     let searchTimeout;
     document.getElementById("searchInput").addEventListener("input", () => {
       clearTimeout(searchTimeout);
       searchTimeout = setTimeout(() => {
         filterTable();
-        updateURL();
+        //updateURL();
       }, 300); // 300ms debounce
     });
 
     document
       .getElementById("resetButton")
       .addEventListener("click", resetFilters);
+    
     document.getElementById("clearSearch").addEventListener("click", () => {
       document.getElementById("searchInput").value = "";
       filterTable();
-      updateURL();
+      //updateURL();
     });
 
-    loadFiltersFromURL();
+    // TODO: Make this work for multiple selections
+    //loadFiltersFromURL();
   })
   .catch((error) => console.error("Failed to fetch CSV file:", error));
 
@@ -120,15 +129,19 @@ function cleanValue(value) {
   return value ? value.replace(/[\r\n]+/g, "").trim() : "";
 }
 
+function cleanValues(unclean_values) {
+  return unclean_values.filter(value => value.trim() !== "").map(value => value.replace(/[\r\n]+/g, "").trim());
+}
+
 function updateDropdown(elementId, options, selectedValue) {
   const select = document.getElementById(elementId);
   const currentSelection = selectedValue || select.value; // Preserve selection
 
   select.innerHTML = ""; // Clear existing options
-  const defaultOption = document.createElement("option");
+  /*const defaultOption = document.createElement("option");
   defaultOption.value = "";
   defaultOption.textContent = "All";
-  select.appendChild(defaultOption);
+  select.appendChild(defaultOption);*/
 
   options.forEach((option) => {
     const opt = document.createElement("option");
@@ -139,6 +152,7 @@ function updateDropdown(elementId, options, selectedValue) {
     }
     select.appendChild(opt);
   });
+  select.loadOptions();
 }
 
 function mapCapacity(value) {
@@ -182,19 +196,17 @@ function createTableCellWithLink(text, url) {
   return td;
 }
 
+function getSelectedOptions(element_id){
+  return Array.from(document.getElementById(element_id).selectedOptions).map(option => option.value);
+}
+
 function filterTable() {
-  const searchTerm = cleanValue(
-    document.getElementById("searchInput").value
-  ).toLowerCase();
-  const selectedFormat = cleanValue(document.getElementById("format").value);
-  const selectedDram = cleanValue(document.getElementById("dram").value);
-  const selectedType = cleanValue(document.getElementById("type").value);
-  const selectedInterface = cleanValue(
-    document.getElementById("interface").value
-  );
-  const selectedCapacity = cleanValue(
-    document.getElementById("capacity").value
-  );
+  const searchTerm = cleanValue(document.getElementById("searchInput").value).toLowerCase();
+  const selectedFormat = cleanValues(getSelectedOptions("format"));
+  const selectedDram = cleanValues(getSelectedOptions("dram"));
+  const selectedType = cleanValues(getSelectedOptions("type"));
+  const selectedInterface = cleanValues(getSelectedOptions("interface"));
+  const selectedCapacity = cleanValues(getSelectedOptions("capacity"));
 
   // Preprocess capacities only once
   const preprocessedCapacities = preprocessCapacities(allData);
@@ -206,51 +218,52 @@ function filterTable() {
 
     return (
       (searchTerm === "" || modelName.startsWith(searchTerm)) &&
-      (selectedFormat === "" || cleanValue(row[3]) === selectedFormat) &&
-      (selectedDram === "" || cleanValue(row[7]) === selectedDram) &&
-      (selectedType === "" || cleanValue(row[2]) === selectedType) &&
-      (selectedInterface === "" || cleanValue(row[4]) === selectedInterface) &&
-      (selectedCapacity === "" || rowCapacities.includes(selectedCapacity))
+      (selectedFormat.length === 0 || selectedFormat.includes(cleanValue(row[3]))) &&
+      (selectedDram.length === 0 || selectedDram.includes(cleanValue(row[7]))) &&
+      (selectedType.length === 0 || selectedType.includes(cleanValue(row[2]))) &&
+      (selectedInterface.length === 0 || selectedInterface.includes(cleanValue(row[4]))) &&
+      (selectedCapacity.length === 0 || selectedCapacity.some(c => rowCapacities.includes(c)))
     );
   });
 
+
   // Get valid values for each filter based on remaining data
-  const availableFormats = getUniqueOptions(filteredData, 3);
+  /*const availableFormats = getUniqueOptions(filteredData, 3);
   const availableTypes = getUniqueOptions(filteredData, 2);
   const availableInterfaces = getUniqueOptions(filteredData, 4);
   const availableDrams = getUniqueOptions(filteredData, 7);
-  const availableCapacities = getUniqueCapacities(filteredData);
+  const availableCapacities = getUniqueCapacities(filteredData);*/
 
   // Preserve selected values if still valid
-  ensureSelectedValue(availableFormats, selectedFormat);
-  ensureSelectedValue(availableTypes, selectedType);
-  ensureSelectedValue(availableInterfaces, selectedInterface);
-  ensureSelectedValue(availableDrams, selectedDram);
-  ensureSelectedValue(availableCapacities, selectedCapacity);
+  /*ensureSelectedValues(availableFormats, selectedFormat);
+  ensureSelectedValues(availableTypes, selectedType);
+  ensureSelectedValues(availableInterfaces, selectedInterface);
+  ensureSelectedValues(availableDrams, selectedDram);
+  ensureSelectedValues(availableCapacities, selectedCapacity);*/
 
   // Update dropdowns with valid options while preserving selections
-  updateDropdown("capacity", availableCapacities, selectedCapacity);
+  /*updateDropdown("capacity", availableCapacities, selectedCapacity);
   updateDropdown("format", availableFormats, selectedFormat);
   updateDropdown("type", availableTypes, selectedType);
   updateDropdown("interface", availableInterfaces, selectedInterface);
-  updateDropdown("dram", availableDrams, selectedDram);
+  updateDropdown("dram", availableDrams, selectedDram);*/
 
   renderTable(filteredData);
 }
 
-function ensureSelectedValue(set, value) {
+/*function ensureSelectedValues(set, values) {
   if (value && !set.includes(value)) set.push(value); // Keep selected value if still valid
-}
+}*/
 
-function getUniqueOptions(data, columnIndex) {
+/*function getUniqueOptions(data, columnIndex) {
   const optionSet = new Set();
   data.forEach((row) => {
     optionSet.add(cleanValue(row[columnIndex]));
   });
   return Array.from(optionSet);
-}
+}*/
 
-function getUniqueCapacities(data) {
+/*function getUniqueCapacities(data) {
   const capacitySet = new Set();
   data.forEach((row) => {
     let rowCapacities =
@@ -261,7 +274,7 @@ function getUniqueCapacities(data) {
     );
   });
   return Array.from(capacitySet).sort((a, b) => parseInt(a) - parseInt(b));
-}
+}*/
 
 function preprocessCapacities(data) {
   return data.map((row) => {
@@ -283,24 +296,24 @@ function resetFilters() {
 
   window.history.pushState({}, "", window.location.pathname);
 
-  updateURL();
+  //updateURL();
 }
 
 function updateURL() {
   const searchTerm = cleanValue(document.getElementById("searchInput").value);
-  const format = cleanValue(document.getElementById("format").value);
-  const dram = cleanValue(document.getElementById("dram").value);
-  const type = cleanValue(document.getElementById("type").value);
-  const interfaceValue = cleanValue(document.getElementById("interface").value);
-  const capacity = cleanValue(document.getElementById("capacity").value);
+  const format = cleanValues(getSelectedOptions("format"));
+  const dram = cleanValues(getSelectedOptions("dram"));
+  const type = cleanValues(getSelectedOptions("type"));
+  const interfaceValue = cleanValues(getSelectedOptions("interface"));
+  const capacity = cleanValues(getSelectedOptions("capacity"));
 
   const urlParams = new URLSearchParams();
   if (searchTerm) urlParams.set("search", searchTerm);
-  if (format) urlParams.set("format", format);
-  if (dram) urlParams.set("dram", dram);
-  if (type) urlParams.set("type", type);
-  if (interfaceValue) urlParams.set("interface", interfaceValue);
-  if (capacity) urlParams.set("capacity", capacity);
+  if (format) urlParams.set("format", format.join(","));
+  if (dram) urlParams.set("dram", dram.join(","));
+  if (type) urlParams.set("type", type.join(","));
+  if (interfaceValue) urlParams.set("interface", interfaceValue.join(","));
+  if (capacity) urlParams.set("capacity", capacity.join(","));
 
   window.history.pushState({}, "", "?" + urlParams.toString());
 }
@@ -319,6 +332,6 @@ function loadFiltersFromURL() {
   filterTable();
 }
 
-function goBack() {
+/*function goBack() {
   window.location.href = "/Rapido";
-}
+}*/
