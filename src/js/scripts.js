@@ -72,7 +72,6 @@ fetch(csvFile)
       //updateURL();
     });
 
-
     let searchTimeout;
     document.getElementById("searchInput").addEventListener("input", () => {
       clearTimeout(searchTimeout);
@@ -85,7 +84,7 @@ fetch(csvFile)
     document
       .getElementById("resetButton")
       .addEventListener("click", resetFilters);
-    
+
     document.getElementById("clearSearch").addEventListener("click", () => {
       document.getElementById("searchInput").value = "";
       filterTable();
@@ -130,7 +129,9 @@ function cleanValue(value) {
 }
 
 function cleanValues(unclean_values) {
-  return unclean_values.filter(value => value.trim() !== "").map(value => value.replace(/[\r\n]+/g, "").trim());
+  return unclean_values
+    .filter((value) => value.trim() !== "")
+    .map((value) => value.replace(/[\r\n]+/g, "").trim());
 }
 
 function updateDropdown(elementId, options, selectedValue) {
@@ -196,12 +197,16 @@ function createTableCellWithLink(text, url) {
   return td;
 }
 
-function getSelectedOptions(element_id){
-  return Array.from(document.getElementById(element_id).selectedOptions).map(option => option.value);
+function getSelectedOptions(element_id) {
+  return Array.from(document.getElementById(element_id).selectedOptions).map(
+    (option) => option.value
+  );
 }
 
 function filterTable() {
-  const searchTerm = cleanValue(document.getElementById("searchInput").value).toLowerCase();
+  const searchTerm = cleanValue(
+    document.getElementById("searchInput").value
+  ).toLowerCase();
   const selectedFormat = cleanValues(getSelectedOptions("format"));
   const selectedDram = cleanValues(getSelectedOptions("dram"));
   const selectedType = cleanValues(getSelectedOptions("type"));
@@ -218,14 +223,18 @@ function filterTable() {
 
     return (
       (searchTerm === "" || modelName.startsWith(searchTerm)) &&
-      (selectedFormat.length === 0 || selectedFormat.includes(cleanValue(row[3]))) &&
-      (selectedDram.length === 0 || selectedDram.includes(cleanValue(row[7]))) &&
-      (selectedType.length === 0 || selectedType.includes(cleanValue(row[2]))) &&
-      (selectedInterface.length === 0 || selectedInterface.includes(cleanValue(row[4]))) &&
-      (selectedCapacity.length === 0 || selectedCapacity.some(c => rowCapacities.includes(c)))
+      (selectedFormat.length === 0 ||
+        selectedFormat.includes(cleanValue(row[3]))) &&
+      (selectedDram.length === 0 ||
+        selectedDram.includes(cleanValue(row[7]))) &&
+      (selectedType.length === 0 ||
+        selectedType.includes(cleanValue(row[2]))) &&
+      (selectedInterface.length === 0 ||
+        selectedInterface.includes(cleanValue(row[4]))) &&
+      (selectedCapacity.length === 0 ||
+        selectedCapacity.some((c) => rowCapacities.includes(c)))
     );
   });
-
 
   // Get valid values for each filter based on remaining data
   /*const availableFormats = getUniqueOptions(filteredData, 3);
